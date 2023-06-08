@@ -1,6 +1,6 @@
 -- ALL custon animations added to this repository were added with express permission from the creators and does not contain any paid content --
 -- If an emote does not work, you may be on an older gamebuild. --
--- To get a higher gamebuild, see ReadMe on github repositorty --
+-- To get a higher gamebuild, see ReadMe on github repository --
 
 
 RP = {}
@@ -9,116 +9,102 @@ RP = {}
 
 RP.Expressions = {
     ["Aiming"] = {
-        "Expression",
         "mood_aiming_1"
     },
     ["Angry"] = {
-        "Expression",
         "mood_angry_1"
     },
     ["Burning"] = {
-        "Expression",
         "burning_1"
     },
     ["Crying"] = {
-        "Expression",
         "console_wasnt_fun_end_loop_floyd_facial"
     },
     ["Dead"] = {
-        "Expression",
         "dead_1"
     },
     ["Drunk"] = {
-        "Expression",
         "mood_drunk_1"
     },
     ["Dumb"] = {
-        "Expression",
         "pose_injured_1"
     },
     ["Electrocuted"] = {
-        "Expression",
         "electrocuted_1"
     },
+    ["Excited"] = {
+        "mood_excited_1"
+    },
+    ["Frustrated"] = {
+        "mood_frustrated_1"
+    },
     ["Grumpy"] = {
-        "Expression",
         "effort_1"
     },
     ["Grumpy2"] = {
-        "Expression",
-        "mood_drivefast_1"
+        "mood_drivefast_1",
+        "Grumpy 2"
     },
     ["Grumpy3"] = {
-        "Expression",
-        "pose_angry_1"
+        "pose_angry_1",
+        "Grumpy 3"
     },
     ["Happy"] = {
-        "Expression",
         "mood_happy_1"
     },
     ["Injured"] = {
-        "Expression",
         "mood_injured_1"
     },
     ["Joyful"] = {
-        "Expression",
         "mood_dancing_low_1"
     },
     ["Mouthbreather"] = {
-        "Expression",
         "smoking_hold_1"
     },
-    ["Never Blink"] = {
-        "Expression",
-        "pose_normal_1"
+    ["Neverblink"] = {
+        "pose_normal_1",
+        "Never Blink"
     },
-    ["One Eye"] = {
-        "Expression",
-        "pose_aiming_1"
+    ["Oneeye"] = {
+        "pose_aiming_1",
+        "One Eye"
     },
     ["Shocked"] = {
-        "Expression",
         "shocked_1"
     },
     ["Shocked2"] = {
-        "Expression",
-        "shocked_2"
+        "shocked_2",
+        "Shocked 2"
     },
     ["Sleeping"] = {
-        "Expression",
         "mood_sleeping_1"
     },
     ["Sleeping2"] = {
-        "Expression",
-        "dead_1"
+        "dead_1",
+        "Sleeping 2"
     },
     ["Sleeping3"] = {
-        "Expression",
-        "dead_2"
+        "dead_2",
+        "Sleeping 3"
     },
     ["Smug"] = {
-        "Expression",
         "mood_smug_1"
     },
     ["Speculative"] = {
-        "Expression",
         "mood_aiming_1"
     },
     ["Stressed"] = {
-        "Expression",
         "mood_stressed_1"
     },
     ["Sulking"] = {
-        "Expression",
         "mood_sulk_1"
     },
     ["Weird"] = {
-        "Expression",
         "effort_2"
     },
     ["Weird2"] = {
-        "Expression",
-        "effort_3"
+        "effort_3",
+        "Weird 2"
     },
 }
 
@@ -139,9 +125,6 @@ RP.Walks = {
     ["Arrogant"] = {
         "move_f@arrogant@a"
     },
-    ["Bigfoot"] = {
-        "move_characters@orleans@core@"
-    },
     ["Butch"] = {
         "move_m@hurry_butch@a"
     },
@@ -158,6 +141,13 @@ RP.Walks = {
     },
     ["Brave"] = {
         "move_m@brave"
+    },
+    ["Brave2"] = {
+        "move_m@brave@a",
+        "Brave 2"
+    },
+    ["Casey"] = {
+        "move_casey"
     },
     ["Casual"] = {
         "move_m@casual@a"
@@ -232,6 +222,13 @@ RP.Walks = {
         "move_f@depressed@a",
         "Depressed 3"
     },
+    ["Depressed4"] = {
+        "move_f@depressed@c",
+        "Depressed 4"
+    },
+    ["Dreyfuss"] = {
+        "move_dreyfuss"
+    },
     ["Drunk"] = {
         "move_m@drunk@a"
     },
@@ -266,6 +263,10 @@ RP.Walks = {
     ["Fat3"] = {
         "move_m@fat@bulky",
         "Fat & Bulky"
+    },
+    ["Fat4"] = {
+        "move_f@fat@a_no_add",
+        "Fat Female 2"
     },
     ["Femme"] = {
         "move_f@femme@"
@@ -313,31 +314,63 @@ RP.Walks = {
     ["Gangster"] = {
         "move_m@gangster@generic"
     },
-    ["Gangster2"] = {
-        "move_m@gangster@ng",
+    ["Gangsterb"] = {
+        "move_gangster",
         "Gangster 2"
     },
-    ["Gangster3"] = {
-        "move_m@gangster@var_e",
+    ["Gangsterc"] = {
+        "move_m@gangster@ng",
         "Gangster 3"
     },
-    ["Gangster4"] = {
-        "move_m@gangster@var_f",
+    ["Gangsterd"] = {
+        "move_m@gangster@var_a",
         "Gangster 4"
     },
-    ["Gangster5"] = {
-        "move_m@gangster@var_i",
+    ["Gangstere"] = {
+        "move_m@gangster@var_b",
         "Gangster 5"
     },
-    ["Gangster6"] = {
-        "move_f@gangster@ng",
-        "Gangster 6 - Female"
+    ["Gangsterf"] = {
+        "move_m@gangster@var_c",
+        "Gangster 6"
     },
-    ["Genenric"] = {
+    ["Gangsterg"] = {
+        "move_m@gangster@var_d",
+        "Gangster 7"
+    },
+    ["Gangsterh"] = {
+        "move_m@gangster@var_e",
+        "Gangster 8"
+    },
+    ["Gangsteri"] = {
+        "move_m@gangster@var_f",
+        "Gangster 9"
+    },
+    ["Gangsterj"] = {
+        "move_m@gangster@var_g",
+        "Gangster 10"
+    },
+    ["Gangsterk"] = {
+        "move_m@gangster@var_h",
+        "Gangster 11"
+    },
+    ["Gangsterl"] = {
+        "move_m@gangster@var_i",
+        "Gangster 12"
+    },
+    ["Gangsterm"] = {
+        "move_m@gangster@var_j",
+        "Gangster 13"
+    },
+    ["Gangstern"] = {
+        "move_m@gangster@var_k",
+        "Gangster 14"
+    },
+    ["Generic"] = {
         "move_m@generic",
         "Generic Male"
     },
-    ["Genenric2"] = {
+    ["Generic2"] = {
         "move_f@generic",
         "Generic Female"
     },
@@ -380,18 +413,6 @@ RP.Walks = {
         "move_m@hobo@b",
         "Hobo 2"
     },
-    ["Hurry"] = {
-        "move_m@hurry@a",
-        "Hurry Male"
-    },
-    ["Hurry2"] = {
-        "move_f@hurry@a",
-        "Hurry Female"
-    },
-    ["Hurry3"] = {
-        "move_f@hurry@b",
-        "Hurry Female 2"
-    },
     ["Injured2"] = {
         "move_f@injured",
         "Injured 2 - Female"
@@ -421,9 +442,6 @@ RP.Walks = {
     ["Jog"] = {
         "move_m@jog@"
     },
-    ["Nervous"] = {
-        "move_characters@jimmy@nervous@"
-    },
     ["Lamar"] = {
         "move_characters@lamar"
     },
@@ -450,8 +468,14 @@ RP.Walks = {
     ["Muscle"] = {
         "move_m@muscle@a"
     },
+    ["Nervous"] = {
+        "move_characters@jimmy@nervous@"
+    },
     ["Patricia"] = {
         "move_characters@patricia"
+    },
+    ["Paramedic"] = {
+        "move_paramedic"
     },
     ["Posh"] = {
         "move_m@posh@"
@@ -508,6 +532,9 @@ RP.Walks = {
     ["Slow"] = {
         "move_characters@jimmy@slow@"
     },
+    ["Stripper"] = {
+        "move_f@stripper@a"
+    },
     ["Swagger"] = {
         "move_m@swagger"
     },
@@ -551,24 +578,6 @@ RP.Walks = {
     ["Wide"] = {
         "move_m@bag"
     },
-
-    -- I cant get these to work for some reason, if anyone knows a fix, let me know
-    -- ? The break menu part should be that the game can't find the anim dict and loop for it infinitely
-    -- ["Caution"] = {"move_m@caution"}, -- breaks menu
-    -- ["Chubby"] = {"anim@move_m@chubby@a"}, -- breaks menu
-    -- ["Crazy"] = {"move_m@crazy"},-- breaks menu
-    -- ["Joy"] = {"move_m@joy@a"},-- breaks menu
-    -- ["Power"] = {"move_m@power"},-- breaks menu
-    -- ["Wading"] = {"move_m@wading"} -- breaks menu
-    -- ["Depressed 3"] = {"move_m@depressed@c" }, -- breaks menu
-    -- ["Depressed 4"] = {"move_m@depressed@d" }, -- breaks menu
-    -- ["Caution"] = {"move_m@caution" },-- breaks menu
-    -- ["Crazy"] = {"move_m@crazy" }, -- breaks menu
-    -- ["Joy"] = {"move_m@joy@a" }, -- breaks menu
-    -- ["Power"] = {"move_m@power" }, -- breaks menu
-    -- ["Power Walk"] = {"move_m@powerwalk" }, -- breaks menu
-    -- ["Tired"] = {"move_m@tired" }, -- breaks menu
-    -- -- ["Wading"] = {"move_m@wading"},-- breaks menu
 }
 
 
@@ -978,7 +987,7 @@ RP.Shared = {
         "amnilka@photopose@couple@couplefirst",
         "amnilka_couple_fem_003",
         "Sit With Me Please?",
-        "carrymecute",
+        "sitwithmepose",
         AnimationOptions = {
             EmoteMoving = false,
             EmoteLoop = true,
@@ -1617,6 +1626,36 @@ RP.Shared = {
             xRot = 0.0,
             yRot = 0.0,
             zRot = 0.0,
+
+        }
+    },
+    ["kisslips"] = {
+        "chocoholic@couple13",
+        "couple13_clip",
+        "Kiss Cute Lips (Female)",
+        "kisslips2",
+        AnimationOptions = {
+            EmoteMoving = false,
+            EmoteLoop = true,
+            Attachto = true,
+            bone = 0,
+            xPos = 0.1600,
+            yPos = 0.2700,
+            zPos = 0.0,
+            xRot = 0.0,
+            yRot = 0.0,
+            zRot = 130.0,
+
+        }
+    },
+    ["kisslips2"] = {
+        "chocoholic@couple14",
+        "couple14_clip",
+        "Kiss Cute Lips (Male)",
+        "kisslips",
+        AnimationOptions = {
+            EmoteMoving = false,
+            EmoteLoop = true,
 
         }
     },
@@ -3678,6 +3717,25 @@ RP.AnimalEmotes = {
             PtfxWait = 200
         }
     },
+    ["bdogfris"] = {
+        "creatures@rottweiler@amb@world_dog_sitting@base",
+        "nill",
+        "Frisbee (big dog)",
+        AnimationOptions = {
+            Prop = 'p_ld_frisbee_01',
+            PropBone = 31086,
+            PropPlacement = {
+                0.2600,
+                0.0200,
+               -0.0600,
+               -173.7526,
+               -169.4149,
+                21.4173
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
 
     ---- ANIMAL EMOTES ----
     ----   SMALL DOG   ----
@@ -5057,17 +5115,47 @@ RP.AnimalEmotes = {
             PtfxInfo = Config.Languages[Config.MenuLanguage]['firework'],
             PtfxWait = 200
         }
-    }
+    },
+    ["sdogfris"] = {
+        "creatures@pug@move",
+        "nill",
+        "Frisbee (small dog)",
+        AnimationOptions = {
+            Prop = 'p_ld_frisbee_01',
+            PropBone = 31086,
+            PropPlacement = {
+                0.1900,
+               -0.0150,
+                0.0000,
+              -90.0000,
+              120.0000,
+                0.000,  
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
 }
 
 
 --- EXIT EMOTES ---
 
 RP.Exits = {
+
+------ HUMAN ------
     ["getup"] = {
         "get_up@sat_on_floor@to_stand",
         "getup_0",
         "Get Up",
+        AnimationOptions = {
+            EmoteDuration = 2000,
+            StartDelay = 600
+        }
+    },
+    ["meditateup"] = {
+        "rcmcollect_paperleadinout@",
+        "meditate_getup",
+        "Meditate Get Up",
         AnimationOptions = {
             EmoteDuration = 2000
         }
@@ -5088,6 +5176,15 @@ RP.Exits = {
             EmoteDuration = 1000
         }
     },
+    ["offtable"] = {
+        "anim@amb@board_room@diagram_blueprints@",
+        "look_around_01_amy_skater_01",
+        "Off Tabble",
+        AnimationOptions = {
+            EmoteDuration = 5700
+        }
+    },
+------ ANIMALS  ------
     ["sdogup"] = {
         "creatures@pug@amb@world_dog_sitting@exit",
         "exit",
@@ -5118,7 +5215,6 @@ RP.Exits = {
 --- EMOTES NO PROPS ---
 
 RP.Emotes = {
-
     ["dispenser"] = {
         "mini@sprunk",
         "plyr_buy_drink_pt1",
@@ -5143,6 +5239,7 @@ RP.Emotes = {
         "Chill",
         AnimationOptions = {
             EmoteLoop = true,
+            StartDelay = 200,
             ExitEmote = "getup",
             ExitEmoteType = "Exits"
         }
@@ -5153,6 +5250,7 @@ RP.Emotes = {
         "Cloudgaze",
         AnimationOptions = {
             EmoteLoop = true,
+            StartDelay = 700,
             ExitEmote = "getup",
             ExitEmoteType = "Exits"
         }
@@ -5163,6 +5261,7 @@ RP.Emotes = {
         "Cloudgaze 2",
         AnimationOptions = {
             EmoteLoop = true,
+            StartDelay = 700,
             ExitEmote = "getup",
             ExitEmoteType = "Exits"
         }
@@ -5173,6 +5272,7 @@ RP.Emotes = {
         "Prone",
         AnimationOptions = {
             EmoteLoop = true,
+            StartDelay = 700,
             ExitEmote = "getup",
             ExitEmoteType = "Exits"
         }
@@ -5324,6 +5424,42 @@ RP.Emotes = {
             EmoteMoving = true
         }
     },
+    ["argue3"] = {
+        "missheistdockssetup1leadinoutig_1", 
+        "lsdh_ig_1_argue_wade", 
+        "Argue 3", 
+        AnimationOptions = {
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    }, 
+    ["argue4"] = {
+        "car_2_mcs_1-6", 
+        "cs_devin_dual-6", 
+        "Argue 4", 
+        AnimationOptions = {            
+            EmoteDuration = 6000,
+            EmoteMoving = true
+        }
+    }, 
+    ["argue5"] = {
+        "anim@amb@casino@brawl@fights@argue@", 
+        "arguement_loop_mp_m_brawler_01", 
+        "Argue Angry 1", 
+        AnimationOptions = {
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    }, 
+    ["argue6"] = {
+        "anim@amb@casino@brawl@fights@argue@", 
+        "arguement_loop_mp_m_brawler_02", 
+        "Argue Angry 2", 
+        AnimationOptions = {
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },  
     ["bartender"] = {
         "anim@amb@clubhouse@bar@drink@idle_a",
         "idle_a_bartender",
@@ -6040,6 +6176,17 @@ RP.Emotes = {
             EmoteMoving = false
         }
     },
+    ["leanplan"] = {
+        "anim@amb@board_room@diagram_blueprints@",
+        "idle_01_amy_skater_01",
+        "Lean On Table",
+        AnimationOptions = {
+            EmoteLoop = true,
+            StartDelay = 200,
+            ExitEmote = "offtable",
+            ExitEmoteType = "Exits"
+        }
+    },
     ["me"] = {
         "gestures@f@standing@casual",
         "gesture_me_hard",
@@ -6105,7 +6252,7 @@ RP.Emotes = {
         "Meditiate",
         AnimationOptions = {
             EmoteLoop = true,
-            ExitEmote = "getup",
+            ExitEmote = "meditateup",
             ExitEmoteType = "Exits"
         }
     },
@@ -6115,7 +6262,7 @@ RP.Emotes = {
         "Meditiate 2",
         AnimationOptions = {
             EmoteLoop = true,
-            ExitEmote = "getup",
+            ExitEmote = "meditateup",
             ExitEmoteType = "Exits"
         }
     },
@@ -6125,7 +6272,7 @@ RP.Emotes = {
         "Meditiate 3",
         AnimationOptions = {
             EmoteLoop = true,
-            ExitEmote = "getup",
+            ExitEmote = "meditateup",
             ExitEmoteType = "Exits"
         }
     },
@@ -6333,10 +6480,22 @@ RP.Emotes = {
     },
     ["sleep"] = {
         "timetable@tracy@sleep@",
-        "idle_c",
+        "base",
         "Sleep",
         AnimationOptions = {
             EmoteLoop = true,
+            StartDelay = 700,
+            ExitEmote = "getup",
+            ExitEmoteType = "Exits"
+        }
+    },
+    ["bumsleep"] = {
+        "amb@world_human_bum_slumped@male@laying_on_left_side@idle_a",
+        "idle_b",
+        "Bum Sleep",
+        AnimationOptions = {
+            EmoteLoop = true,
+            StartDelay = 700,
             ExitEmote = "getup",
             ExitEmoteType = "Exits"
         }
@@ -6380,8 +6539,8 @@ RP.Emotes = {
         }
     },
     ["sit3"] = {
-        "amb@world_human_picnic@male@idle_a",
-        "idle_a",
+        "amb@lo_res_idles@",
+        "world_human_picnic_male_lo_res_base",
         "Sit 3",
         AnimationOptions = {
             EmoteLoop = true,
@@ -6390,8 +6549,8 @@ RP.Emotes = {
         }
     },
     ["sit4"] = {
-        "amb@world_human_picnic@female@idle_a",
-        "idle_a",
+        "amb@lo_res_idles@",
+        "world_human_picnic_female_lo_res_base",
         "Sit 4",
         AnimationOptions = {
             EmoteLoop = true,
@@ -6425,6 +6584,7 @@ RP.Emotes = {
         "Sit 7",
         AnimationOptions = {
             EmoteLoop = true,
+            StartDelay = 900,
             ExitEmote = "getup",
             ExitEmoteType = "Exits"
         }
@@ -6449,11 +6609,30 @@ RP.Emotes = {
             ExitEmoteType = "Exits"
         }
     },
+    ["sitfu"] = {
+        "chocoholic@single80",
+        "single80_clip",
+        "Sit Middle Finger",
+        AnimationOptions = {
+            EmoteLoop = true,
+            ExitEmote = "getup",
+            ExitEmoteType = "Exits"
+        }
+    },
     ["elbow"] = {
         "anim@veh@lowrider@std@ds@arm@base",
         "sit_low_lowdoor",
         "Window Elbow",
         AnimationOptions = {
+            EmoteLoop = true
+        }
+    },
+    ["elbow2"] = { -- Custom Emote By Chocoholic Animations 
+        "chocoholic@single47",
+        "single47_clip",
+        "Window Elbow 2",
+        AnimationOptions = {
+            onlyInVehicle = true,
             EmoteLoop = true
         }
     },
@@ -6471,6 +6650,16 @@ RP.Emotes = {
         "anim@amb@business@bgen@bgen_no_work@",
         "sit_phone_phoneputdown_sleeping-noworkfemale",
         "Sit Sad",
+        AnimationOptions = {
+            EmoteLoop = true,
+            ExitEmote = "getup",
+            ExitEmoteType = "Exits"
+        }
+    },
+    ["sitsad2"] = {
+        "anim@female_sit_01",
+        "f_sit_01_clip",
+        "Sit S 2",
         AnimationOptions = {
             EmoteLoop = true,
             ExitEmote = "getup",
@@ -6596,6 +6785,41 @@ RP.Emotes = {
             EmoteLoop = true
         }
     },
+    ["smokengun"] = {
+        "smokingweapon@animation",
+        "smokingweapon_clip",
+        "Sitting Smoke & Gun",
+        AnimationOptions = {
+            Prop = "ng_proc_cigarette01a",
+            PropBone = 4185,
+            PropPlacement = {
+                0.0300,
+                0.0000,
+                0.0200,
+                1.7096,
+              -43.1362,
+              -27.9428
+            },
+            EmoteLoop = true,
+            ExitEmote = "getup",
+            ExitEmoteType = "Exits",
+            PtfxAsset = "scr_agencyheistb",
+            PtfxName = "scr_agency3b_elec_box",
+            PtfxNoProp = false,
+            PtfxPlacement = {
+               -0.0760,
+                0.0000,
+                0.0200,
+                0.0,
+                0.0,
+                0.0,
+                0.2
+            },
+            PtfxInfo = Config.Languages[Config.MenuLanguage]['vape'],
+            PtfxWait = 0.8,
+            PtfxCanHold = true
+        }
+    },
     ["clapangry"] = {
         "anim@arena@celeb@flat@solo@no_props@",
         "angry_clap_a_player_a",
@@ -6677,9 +6901,10 @@ RP.Emotes = {
     ["sunbathe"] = {
         "amb@world_human_sunbathe@male@back@base",
         "base",
-        "Sunbathe",
+        "Sunbathe - Hand On Head",
         AnimationOptions = {
             EmoteLoop = true,
+            StartDelay = 700,
             NotInVehicle = true,
             ExitEmote = "getup",
             ExitEmoteType = "Exits"
@@ -6688,15 +6913,28 @@ RP.Emotes = {
     ["sunbathe2"] = {
         "amb@world_human_sunbathe@female@back@base",
         "base",
-        "Sunbathe 2",
+        "Sunbathe 2 - Hand Over Face",
         AnimationOptions = {
             EmoteLoop = true,
+            StartDelay = 700,
             NotInVehicle = true,
             ExitEmote = "getup",
             ExitEmoteType = "Exits"
         }
     },
-    ["t"] = {
+    ["sunbathe3"] = {
+        "amb@world_human_sunbathe@female@front@base",
+        "base",
+        "Sunbathe 3 - Lay On Stomach",
+        AnimationOptions = {
+            EmoteLoop = true,
+            StartDelay = 700,
+            NotInVehicle = true,
+            ExitEmote = "getup",
+            ExitEmoteType = "Exits"
+        }
+    },
+    ["tpose"] = {
         "missfam5_yoga",
         "a2_pose",
         "T Pose",
@@ -6705,7 +6943,7 @@ RP.Emotes = {
             EmoteMoving = true
         }
     },
-    ["t2"] = {
+    ["tpose2"] = {
         "mp_sleep",
         "bind_pose_180",
         "T Pose 2",
@@ -6988,12 +7226,31 @@ RP.Emotes = {
             EmoteMoving = true
         }
     },
+    ["gangsign3"] = {
+        "amb@code_human_in_car_mp_actions@gang_sign_b@low@ps@base",
+        "idle_a",
+        "Gang Sign 3",
+        AnimationOptions = {
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["gangsign4"] = {
+        "amb@code_human_in_car_mp_actions@v_sign@std@rds@base",
+        "idle_a",
+        "Gang Sign 4",
+        AnimationOptions = {
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
     ["passout"] = {
         "missarmenian2",
         "drunk_loop",
         "Passout",
         AnimationOptions = {
             EmoteLoop = true,
+            StartDelay = 900,
             NotInVehicle = true,
             ExitEmote = "getup",
             ExitEmoteType = "Exits"
@@ -7005,6 +7262,7 @@ RP.Emotes = {
         "Passout 2",
         AnimationOptions = {
             EmoteLoop = true,
+            StartDelay = 900,
             NotInVehicle = true,
             ExitEmote = "getup",
             ExitEmoteType = "Exits"
@@ -7016,6 +7274,7 @@ RP.Emotes = {
         "Passout 3",
         AnimationOptions = {
             EmoteLoop = true,
+            StartDelay = 900,
             NotInVehicle = true,
             ExitEmote = "getup",
             ExitEmoteType = "Exits"
@@ -7027,6 +7286,7 @@ RP.Emotes = {
         "Passout 4",
         AnimationOptions = {
             EmoteLoop = true,
+            StartDelay = 900,
             NotInVehicle = true,
             ExitEmote = "getup",
             ExitEmoteType = "Exits"
@@ -7038,6 +7298,7 @@ RP.Emotes = {
         "Passout 5",
         AnimationOptions = {
             EmoteLoop = true,
+            StartDelay = 900,
             NotInVehicle = true,
             ExitEmote = "getup",
             ExitEmoteType = "Exits"
@@ -7056,7 +7317,10 @@ RP.Emotes = {
         "front_loop",
         "Crawl",
         AnimationOptions = {
-            EmoteLoop = true
+            EmoteLoop = true,
+            StartDelay = 700,
+            ExitEmote = "meditateup",
+            ExitEmoteType = "Exits"
         }
     },
     ["flip2"] = {
@@ -7879,6 +8143,15 @@ RP.Emotes = {
             EmoteMoving = true
         }
     },
+    ["pockets"] = { -- Custom Emote By Dark Animations
+        "hoodie_hands@dad",
+        "hoodie_hands_clip",
+        "Hands in pockets (Hoodie)",
+        AnimationOptions = {
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
     ["posecutef"] = { -- Custom Emote By Pupppy
         "pupppy@freepose01",
         "freepose01",
@@ -8097,16 +8370,166 @@ RP.Emotes = {
         "Hug Dog",
         AnimationOptions = {
             EmoteLoop = true,
-            EmoteMoving = false,
+			EmoteMoving = false,
         }
     },
-	["maleprepgears"] = {
-        "anim@male@prep_gears",
-        "prep_gears_clip",
-        "Prep Gears",
+    ["snot"] = {
+        "move_p_m_two_idles@generic", 
+        "fidget_blow_snot", 
+        "Blow Snot", 
         AnimationOptions = {
-            EmoteLoop = true,
+            EmoteMoving = true,
+            EmoteDuration = 4500,
+        }
+    }, 
+    ["scratch"] = {
+        "move_p_m_two_idles@generic", 
+        "fidget_scratch_balls", 
+        "Scratch Balls", 
+        AnimationOptions = {
             EmoteMoving = false,
+            EmoteDuration = 4000,
+        },
+        AdultAnimation = true
+    },
+	["cartaunt"] = {
+        "missarmenian1driving_taunts@lamar_1",
+        "cmonfrank",
+        "Car Taunt",
+        AnimationOptions = {
+            onlyInVehicle = true,
+			EmoteMoving = false,
+            EmoteDuration = 2000,
+        }
+    },
+	["cartauntb"] = {
+        "missarmenian1driving_taunts@lamar_1",
+        "cmonmynigga",
+        "Car Taunt 2",
+        AnimationOptions = {
+            onlyInVehicle = true,
+			EmoteMoving = false,
+            EmoteDuration = 2000,
+        }
+    },
+	["cartauntc"] = {
+        "missarmenian1driving_taunts@lamar_1",
+        "hahahakeepup",
+        "Car Taunt 3",
+        AnimationOptions = {
+            onlyInVehicle = true,
+			EmoteMoving = false,
+            EmoteDuration = 2000,
+        }
+    },
+	["cartauntd"] = {
+        "missarmenian1driving_taunts@lamar_1",
+        "manthisismeanttobe",
+        "Car Taunt 4",
+        AnimationOptions = {
+            onlyInVehicle = true,
+			EmoteMoving = false,
+            EmoteDuration = 2000,
+        }
+    },
+	["cartaunte"] = {
+        "missarmenian1driving_taunts@lamar_1",
+        "rememberthis",
+        "Car Taunt 5",
+        AnimationOptions = {
+            onlyInVehicle = true,
+			EmoteMoving = false,
+            EmoteDuration = 3000,
+        }
+    },
+	["cartauntf"] = {
+        "missarmenian1driving_taunts@lamar_1",
+        "skoolinyoass",
+        "Car Taunt 6",
+        AnimationOptions = {
+            onlyInVehicle = true,
+			EmoteMoving = false,
+            EmoteDuration = 3000,
+        }
+    },
+	["cartauntg"] = {
+        "missarmenian1driving_taunts@lamar_1",
+        "youaintfuckin",
+        "Car Taunt 7",
+        AnimationOptions = {
+            onlyInVehicle = true,
+			EmoteMoving = false,
+            EmoteDuration = 2000,
+        }
+    },
+	["cartaunth"] = {
+        "missarmenian1driving_taunts@franklin",
+        "heyidontneedanybody",
+        "Car Taunt 8",
+        AnimationOptions = {
+            onlyInVehicle = true,
+			EmoteMoving = false,
+            EmoteDuration = 2000,
+        }
+    },
+	["cartaunti"] = {
+        "missarmenian1driving_taunts@franklin",
+        "heymotherfuckayoudriveslowasfuck",
+        "Car Taunt 9",
+        AnimationOptions = {
+            onlyInVehicle = true,
+			EmoteMoving = false,
+            EmoteDuration = 3000,
+        }
+    },
+	["cartauntj"] = {
+        "missarmenian1driving_taunts@franklin",
+        "kids_on_bicycles",
+        "Car Taunt 10",
+        AnimationOptions = {
+            onlyInVehicle = true,
+			EmoteMoving = false,
+            EmoteDuration = 2000,
+        }
+    },
+	["cartauntk"] = {
+        "missarmenian1driving_taunts@franklin",
+        "learnhowtouseastick",
+        "Car Taunt 11",
+        AnimationOptions = {
+            onlyInVehicle = true,
+			EmoteMoving = false,
+            EmoteDuration = 2000,
+        }
+    },
+	["cartauntl"] = {
+        "missarmenian1driving_taunts@franklin",
+        "slowassshit",
+        "Car Taunt 12",
+        AnimationOptions = {
+            onlyInVehicle = true,
+			EmoteMoving = false,
+            EmoteDuration = 2000,
+        }
+    },
+	["cartauntm"] = {
+        "mp_intro_seq@mcs_7_race_taunt",
+        "mcs_7_taunt_female",
+        "Car Taunt 13",
+        AnimationOptions = {
+            onlyInVehicle = true,
+			EmoteMoving = false,
+            EmoteDuration = 5000,
+        }
+    },
+	["cartauntn"] = {
+        "mp_intro_seq@mcs_7_race_taunt",
+        "mcs_7_taunt_male",
+        "Car Taunt 14",
+        AnimationOptions = {
+            onlyInVehicle = true,
+			EmoteMoving = false,
+            EmoteDuration = 5000,
         }
     },
 
@@ -8140,11 +8563,6 @@ RP.Emotes = {
         "Scenario",
         "PROP_HUMAN_BUM_BIN",
         "Bum Bin"
-    },
-    ["bumsleep"] = {
-        "Scenario",
-        "WORLD_HUMAN_BUM_SLUMPED",
-        "Bum Sleep"
     },
     ["cheer"] = {
         "Scenario",
@@ -8354,8 +8772,8 @@ RP.Emotes = {
         "WORLD_HUMAN_DRUG_DEALER",
         "Smoke Weed (Male)"
     },
-    -- Male
-    ["smokepot"] = {
+    --Female
+    ["smokeweed2"] = {
         "Scenario",
         "WORLD_HUMAN_SMOKING_POT",
         "Smoke Weed (Female)"
@@ -8365,16 +8783,6 @@ RP.Emotes = {
         "Scenario",
         "WORLD_HUMAN_HUMAN_STATUE",
         "Statue"
-    },
-    ["sunbathe3"] = {
-        "Scenario",
-        "WORLD_HUMAN_SUNBATHE",
-        "Sunbathe 3"
-    },
-    ["sunbatheback"] = {
-        "Scenario",
-        "WORLD_HUMAN_SUNBATHE_BACK",
-        "Sunbathe Back"
     },
     ["weld"] = {
         "Scenario",
@@ -8525,6 +8933,15 @@ RP.Emotes = {
             EmoteMoving = true
         }
     },
+    ["dab"] = {
+        "stand_dab@dark",
+        "stand_dab_clip",
+        "Dab",
+        AnimationOptions = {
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
     ["sexypose"] = { -- Custom Emote By Little Spoon
         "littlespoon@sexy003",
         "sexy003",
@@ -8573,7 +8990,7 @@ RP.Emotes = {
     ["sexypose6"] = { -- Custom Emote By Little Spoon
         "littlespoon@sexy012",
         "sexy012",
-        "Sexy Pose 5",
+        "Sexy Pose 6",
         AnimationOptions = {
             EmoteLoop = true,
             EmoteMoving = false
@@ -8585,6 +9002,7 @@ RP.Emotes = {
         "Laying Down Sexy",
         AnimationOptions = {
             EmoteLoop = true,
+            StartDelay = 700,
             ExitEmote = "getup",
             ExitEmoteType = "Exits"
         }
@@ -8622,6 +9040,7 @@ RP.Emotes = {
         "Lay & Cry",
         AnimationOptions = {
             EmoteLoop = true,
+            StartDelay = 700,
             ExitEmote = "getup",
             ExitEmoteType = "Exits"
         }
@@ -8632,6 +9051,7 @@ RP.Emotes = {
         "Lay & Cry 2",
         AnimationOptions = {
             EmoteLoop = true,
+            StartDelay = 700,
             ExitEmote = "getup",
             ExitEmoteType = "Exits"
         }
@@ -8642,6 +9062,7 @@ RP.Emotes = {
         "Lay & Cry 3",
         AnimationOptions = {
             EmoteLoop = true,
+            StartDelay = 700,
             ExitEmote = "getup",
             ExitEmoteType = "Exits"
         }
@@ -8652,6 +9073,7 @@ RP.Emotes = {
         "Lay & Cry 4",
         AnimationOptions = {
             EmoteLoop = true,
+            StartDelay = 700,
             ExitEmote = "getup",
             ExitEmoteType = "Exits"
         }
@@ -8662,6 +9084,7 @@ RP.Emotes = {
         "Lay & Cry 5",
         AnimationOptions = {
             EmoteLoop = true,
+            StartDelay = 700,
             ExitEmote = "getup",
             ExitEmoteType = "Exits"
         }
@@ -8672,6 +9095,7 @@ RP.Emotes = {
         "Lay & Cry 6",
         AnimationOptions = {
             EmoteLoop = true,
+            StartDelay = 700,
             ExitEmote = "getup",
             ExitEmoteType = "Exits"
         }
@@ -8750,7 +9174,10 @@ RP.Emotes = {
         "crawl_01",
         "Zombie Crawl",
         AnimationOptions = {
-            EmoteLoop = true
+            EmoteLoop = true,
+            StartDelay = 700,
+            ExitEmote = "meditateup",
+            ExitEmoteType = "Exits"
         }
     },
     ["laysexy"] = { -- Custom Emote By Amnilka
@@ -8759,6 +9186,7 @@ RP.Emotes = {
         "Lay Sexy",
         AnimationOptions = {
             EmoteLoop = true,
+            StartDelay = 700,
             ExitEmote = "getup",
             ExitEmoteType = "Exits"
         }
@@ -8771,9 +9199,96 @@ RP.Emotes = {
             EmoteLoop = true
         }
     },
+    ["vest"] = {
+        "anim@male@holding_vest",
+        "holding_vest_clip",
+        "Hold Vest",
+        AnimationOptions = {
+            EmoteLoop = true,
+            EmoteMoving = true,
+        }
+    },
+    ["vest2"] = {
+        "anim@holding_side_vest",
+        "holding_side_vest_clip",
+        "Hold Vest 2",
+        AnimationOptions = {
+            EmoteLoop = true,
+            EmoteMoving = true,
+        }
+    },
+    ["vest3"] = {
+        "anim@holding_siege_vest_side",
+        "holding_siege_vest_side_clip",
+        "Hold Vest 3",
+        AnimationOptions = {
+            EmoteLoop = true,
+            EmoteMoving = true,
+        }
+    },
+    ["vest4"] = {
+        "anim@male@holding_vest_2",
+        "holding_vest_2_clip",
+        "Hold Vest 4",
+        AnimationOptions = {
+            EmoteLoop = true,
+            EmoteMoving = true,
+        }
+    },
+    ["vest5"] = {
+        "anim@male@holding_vest_siege",
+        "holding_vest_siege_clip",
+        "Hold Vest 5",
+        AnimationOptions = {
+            EmoteLoop = true,
+            EmoteMoving = true,
+        }
+    },
+    ["vest6"] = {
+        "anim@male@holding_vest_siege_2",
+        "holding_vest_siege_2_clip",
+        "Hold Vest 6",
+        AnimationOptions = {
+            EmoteLoop = true,
+            EmoteMoving = true,
+        }
+    },
+    ["kick"] = {
+        "missheistdockssetup1ig_13@kick_idle",
+        "guard_beatup_kickidle_guard1",
+        "Kick",
+        AnimationOptions = {
+            EmoteLoop = true
+        }
+    },
+    ["kick2"] = {
+        "missheistdockssetup1ig_13@kick_idle",
+        "guard_beatup_kickidle_guard2",
+        "Kick 2",
+        AnimationOptions = {
+            EmoteLoop = true
+        }
+    },
+    ["kick3"] = {
+        "melee@unarmed@streamed_core",
+        "kick_close_a",
+        "Kick 3",
+        AnimationOptions = {
+            EmoteDuration = 1750
+        }
+    },
+    ["crosshands"] = {
+        "anim@amb@carmeet@checkout_car@",
+        "male_e_base",
+        "Cross hands",
+        AnimationOptions = {
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
 }
 
---- EMOTES WITH 1 OR 2 PROPS ---
+--- PROP EMOTES GO HERE. CURRENTLY SUPPORTS UP TO 2 PROPS  ---
 RP.PropEmotes = {
     ["umbrella"] = {
         "amb@world_human_drinking@coffee@male@base",
@@ -8975,6 +9490,60 @@ RP.PropEmotes = {
             EmoteMoving = true
         }
     },
+    ["cake5"] = {
+        "anim@heists@box_carry@",
+        "idle",
+        "Unicorn Cake",
+        AnimationOptions = { -- Custom Prop By PataMods
+            Prop = 'pata_cake',
+            PropBone = 28422,
+            PropPlacement = {
+                0.0,
+               -0.0700,
+               -0.0400,
+               10.0000,
+                0.0000,
+                0.0000
+            },
+            EmoteMoving = true
+        }
+    },
+    ["cake6"] = {
+        "anim@heists@box_carry@",
+        "idle",
+        "Pride Cake",
+        AnimationOptions = { -- Custom Prop By PataMods
+            Prop = 'pata_cake2',
+            PropBone = 28422,
+            PropPlacement = {
+                0.0,
+               -0.0700,
+               -0.0400,
+               10.0000,
+                0.0000,
+                0.0000
+            },
+            EmoteMoving = true
+        }
+    },
+    ["cake7"] = { -- Custom Prop By PataMods
+        "anim@heists@box_carry@",
+        "idle",
+        "Chocolate Mud Cake",
+        AnimationOptions = {
+            Prop = 'pata_cake3',
+            PropBone = 28422,
+            PropPlacement = {
+               -0.0100,
+               -0.0390,
+               -0.0800,
+               10.0000,
+                0.0000,
+                0.0000
+            },
+            EmoteMoving = true
+        }
+    },
     ["cakew"] = {
         "anim@move_f@waitress",
         "idle",
@@ -9051,6 +9620,63 @@ RP.PropEmotes = {
             EmoteMoving = true
         }
     },
+    ["cakew5"] = {
+        "anim@move_f@waitress",
+        "idle",
+        "Cake Waiter - Unicorn",
+        AnimationOptions = {
+            Prop = "pata_cake",
+            PropBone = 28422,
+            PropPlacement = {
+                0.0,
+                0.0,
+                0.1100,
+                0.0,
+                0.0,
+               30.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["cakew6"] = {
+        "anim@move_f@waitress",
+        "idle",
+        "Cake Waiter - Pride",
+        AnimationOptions = {
+            Prop = "pata_cake2",
+            PropBone = 28422,
+            PropPlacement = {
+                0.0000,
+                0.0000,
+                0.1100,
+                0.0,
+                0.0,
+               20.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["cakew7"] = { --- Custom Prop & Emote By BzZzi
+        "anim@move_f@waitress",
+        "idle",
+        "Cake Waiter - Chocolate Mud",
+        AnimationOptions = {
+            Prop = "pata_cake3",
+            PropBone = 28422,
+            PropPlacement = {
+                0.0,
+                0.0,
+                0.1100,
+                0.0,
+                0.0,
+               30.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
     ["rose"] = {
         "anim@heists@humane_labs@finale@keycards",
         "ped_a_enter_loop",
@@ -9065,6 +9691,25 @@ RP.PropEmotes = {
                 -100.0,
                 0.0,
                 -20.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["balloon"] = {
+        "anim@heists@humane_labs@finale@keycards",
+        "ped_a_enter_loop",
+        "Balloon",
+        AnimationOptions = {
+            Prop = "heart_balloon",
+            PropBone = 60309,
+            PropPlacement = {
+                0.25,
+               -0.84,
+                0.53,
+             -157.2041,
+             -101.1702,
+              28.0243
             },
             EmoteLoop = true,
             EmoteMoving = true
@@ -9144,20 +9789,21 @@ RP.PropEmotes = {
             },
             EmoteMoving = true,
             EmoteLoop = true,
-            PtfxAsset = "core",
-            PtfxName = "exp_grd_bzgas_smoke",
+            PtfxAsset = "scr_agencyheistb",
+            PtfxName = "scr_agency3b_elec_box",
             PtfxNoProp = true,
+            PtfxBone = 31086,
             PtfxPlacement = {
-                -0.0100,
-                0.0600,
-                0.6600,
+                0.0,
+                0.170,
                 0.0,
                 0.0,
                 0.0,
-                2.0
+                0.0,
+                1.4
             },
             PtfxInfo = Config.Languages[Config.MenuLanguage]['vape'],
-            PtfxWait = 0,
+            PtfxWait = 0.8,
             PtfxCanHold = true
         }
     },
@@ -9178,20 +9824,21 @@ RP.PropEmotes = {
             },
             EmoteMoving = true,
             EmoteLoop = true,
-            PtfxAsset = "core",
-            PtfxName = "exp_grd_bzgas_smoke",
+            PtfxAsset = "scr_agencyheistb",
+            PtfxName = "scr_agency3b_elec_box",
             PtfxNoProp = true,
+            PtfxBone = 31086,
             PtfxPlacement = {
-                -0.0100,
-                0.0600,
-                0.6600,
+                0.0,
+                0.170,
                 0.0,
                 0.0,
                 0.0,
-                2.0
+                0.0,
+                1.4
             },
             PtfxInfo = Config.Languages[Config.MenuLanguage]['vape'],
-            PtfxWait = 0,
+            PtfxWait = 1.8,
             PtfxCanHold = true
         }
     },
@@ -9209,7 +9856,25 @@ RP.PropEmotes = {
                 95.0,
                 190.0,
                 180.0
-            }
+            },
+            EmoteLoop = true,
+            EmoteMoving = true,
+            PtfxAsset = "scr_agencyheistb",
+            PtfxName = "scr_agency3b_elec_box",
+            PtfxNoProp = true,
+            PtfxBone = 31086,
+            PtfxPlacement = {
+                0.0,
+                0.170,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.4
+            },
+            PtfxInfo = Config.Languages[Config.MenuLanguage]['vape'],
+            PtfxWait = 0.8,
+            PtfxCanHold = true
         }
     },
     ["bong2"] = {
@@ -9226,7 +9891,97 @@ RP.PropEmotes = {
                 95.0,
                 190.0,
                 180.0
-            }
+            },
+            EmoteLoop = true,
+            EmoteMoving = true,
+            PtfxAsset = "scr_agencyheistb",
+            PtfxName = "scr_agency3b_elec_box",
+            PtfxNoProp = true,
+            PtfxBone = 31086,
+            PtfxPlacement = {
+                0.0,
+                0.170,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.4
+            },
+            PtfxInfo = Config.Languages[Config.MenuLanguage]['vape'],
+            PtfxWait = 0.8,
+            PtfxCanHold = true
+        }
+    },
+    ["bong3"] = {
+        "sit_bong@dark",
+        "sit_bong_clip",
+        "Bong 3 - Sit & Rip",
+        AnimationOptions = {
+            Prop = 'hei_heist_sh_bong_01',
+            PropBone = 60309,
+            PropPlacement = {
+                0.0490,
+               -0.2000,
+                0.0800,
+              -85.0199,
+              102.3320,
+              -15.0085
+            },
+            EmoteLoop = true,
+            ExitEmote = "getup",
+            ExitEmoteType = "Exits",
+            PtfxAsset = "scr_agencyheistb",
+            PtfxName = "scr_agency3b_elec_box",
+            PtfxNoProp = true,
+            PtfxBone = 31086,
+            PtfxPlacement = {
+                0.0,
+                0.170,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.4
+            },
+            PtfxInfo = Config.Languages[Config.MenuLanguage]['vape'],
+            PtfxWait = 0.8,
+            PtfxCanHold = true
+        }
+    },
+    ["bong4"] = {
+        "sit_bong@dark",
+        "sit_bong_clip",
+        "Bong 4 - Sit & Rip Purple",
+        AnimationOptions = {
+            Prop = 'xm3_prop_xm3_bong_01a',
+            PropBone = 60309,
+            PropPlacement = {
+                0.0490,
+               -0.2000,
+                0.0800,
+              -85.0199,
+              102.3320,
+              -15.0085
+            },
+            EmoteLoop = true,
+            ExitEmote = "getup",
+            ExitEmoteType = "Exits",
+            PtfxAsset = "scr_agencyheistb",
+            PtfxName = "scr_agency3b_elec_box",
+            PtfxNoProp = true,
+            PtfxBone = 31086,
+            PtfxPlacement = {
+                0.0,
+                0.170,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.4
+            },
+            PtfxInfo = Config.Languages[Config.MenuLanguage]['vape'],
+            PtfxWait = 0.8,
+            PtfxCanHold = true
         }
     },
     ["fishing1"] = {
@@ -9638,6 +10393,82 @@ RP.PropEmotes = {
             EmoteMoving = true
         }
     },
+    ["beer2"] = {
+        "amb@world_human_drinking@beer@male@idle_a",
+        "idle_c",
+        "Beer 2",
+        AnimationOptions = {
+            Prop = 'prop_amb_beer_bottle',
+            PropBone = 28422,
+            PropPlacement = {
+                0.0,
+                0.0,
+                0.06,
+                0.0,
+                15.0,
+                0.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["beer3"] = {
+        "amb@world_human_drinking@beer@male@idle_a",
+        "idle_a",
+        "Beer 3",
+        AnimationOptions = {
+            Prop = 'p_cs_bottle_01',
+            PropBone = 28422,
+            PropPlacement = {
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["beer4"] = {
+        "amb@world_human_drinking@beer@male@idle_a",
+        "idle_b",
+        "Beer 4 - Pour One Out For The Homies",
+        AnimationOptions = {
+            Prop = 'p_cs_bottle_01',
+            PropBone = 28422,
+            PropPlacement = {
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            },
+            EmoteLoop = false,
+            EmoteMoving = true
+        }
+    },
+    ["beer5"] = {
+        "amb@world_human_drinking@beer@male@idle_a",
+        "idle_c",
+        "Beer 5",
+        AnimationOptions = {
+            Prop = 'p_cs_bottle_01',
+            PropBone = 28422,
+            PropPlacement = {
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = false
+        }
+    },
     ["whiskeyb2"] = {
         "amb@world_human_drinking@beer@male@idle_a",
         "idle_a",
@@ -9655,25 +10486,6 @@ RP.PropEmotes = {
             },
             EmoteLoop = true,
             EmoteMoving = true
-        }
-    },
-    ["beer2"] = {
-        "amb@world_human_drinking@beer@male@idle_a",
-        "idle_c",
-        "Beer 2",
-        AnimationOptions = {
-            Prop = 'prop_amb_beer_bottle',
-            PropBone = 28422,
-            PropPlacement = {
-                0.0,
-                0.0,
-                0.06,
-                0.0,
-                15.0,
-                0.0
-            },
-            EmoteLoop = true,
-            EmoteMoving = false
         }
     },
     ["whiskeyb3"] = {
@@ -9709,6 +10521,63 @@ RP.PropEmotes = {
                 15.0,
                 15.0,
                 0.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["beercan"] = {
+        "amb@world_human_drinking@coffee@male@idle_a",
+        "idle_c",
+        "Beer Can",
+        AnimationOptions = {
+            Prop = 'v_res_tt_can01',
+            PropBone = 28422,
+            PropPlacement = {
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                80.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["beercan2"] = {
+        "amb@world_human_drinking@coffee@male@idle_a",
+        "idle_c",
+        "Beer Can 2",
+        AnimationOptions = {
+            Prop = 'v_res_tt_can02',
+            PropBone = 28422,
+            PropPlacement = {
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+             -150.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["beercan3"] = {
+        "amb@world_human_drinking@coffee@male@idle_a",
+        "idle_c",
+        "Beer Can 3",
+        AnimationOptions = {
+            Prop = 'h4_prop_h4_can_beer_01a',
+            PropBone = 28422,
+            PropPlacement = {
+                0.0,
+                0.0,
+               -0.0700,
+                0.0,
+                0.0,
+                90.0
             },
             EmoteLoop = true,
             EmoteMoving = true
@@ -10344,6 +11213,35 @@ RP.PropEmotes = {
             EmoteMoving = true
         }
     },
+    ["burgerpose"] = { -- Custom Emote By Dark Animations exclusive to RPEmotes exclusive to RPEmotes
+        "brugershot_dark_fixed@dark",
+        "brugershot_dark_fixed_clip",
+        "Burger - Pose",
+        AnimationOptions = {
+            Prop = 'prop_cs_burger_01',
+            PropBone = 60309,
+            PropPlacement = {
+                0.0460,
+                0.0140,
+                0.0460,
+                3.4346,
+               20.1823,
+              -10.000
+            },
+            SecondProp = 'ba_prop_battle_sports_helmet',
+            SecondPropBone = 28422,
+            SecondPropPlacement = {
+                0.0400,
+               -0.0100,
+               -0.2000,
+              176.3835,
+             -169.3724,
+               19.6834
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
     ["sandwich"] = {
         "mp_player_inteat@burger",
         "mp_player_int_eat_burger",
@@ -10365,7 +11263,7 @@ RP.PropEmotes = {
     ["soda"] = {
         "amb@world_human_drinking@coffee@male@idle_a",
         "idle_c",
-        "Soda",
+        "Soda - eCola Can",
         AnimationOptions = {
             Prop = 'prop_ecola_can',
             PropBone = 28422,
@@ -10381,23 +11279,901 @@ RP.PropEmotes = {
             EmoteMoving = true
         }
     },
-    ["water"] = {
+    ["soda2"] = {
         "amb@world_human_drinking@coffee@male@idle_a",
         "idle_c",
-        "Water",
+        "Soda 2 - Sprunk Can",
         AnimationOptions = {
-            Prop = 'ba_prop_club_water_bottle',
+            Prop = 'ng_proc_sodacan_01b',
+            PropBone = 28422,
+            PropPlacement = {
+                0.0050,
+               -0.0010,
+               -0.0800,
+                0.0,
+                0.0,
+                160.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["soda3"] = {
+        "amb@code_human_wander_drinking@male@base",
+        "static",
+        "Soda 3 - P's & Q's Cup",
+        AnimationOptions = {
+            Prop = 'v_ret_fh_bscup',
             PropBone = 28422,
             PropPlacement = {
                 0.0,
                 0.0,
-                -0.090,
+                0.0400,
+                0.0,
+                0.0,
+                0.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["soda4"] = {
+        "amb@code_human_wander_drinking@male@base",
+        "static",
+        "Soda 4 - Burger Shot Cup",
+        AnimationOptions = {
+            Prop = 'prop_cs_bs_cup',
+            PropBone = 28422,
+            PropPlacement = {
+                0.0060,
+                0.0010,
+                0.0,
+                0.0,
+                0.0,
+             -150.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["soda5"] = {
+       "amb@code_human_wander_drinking@male@base",
+        "static",
+        "Soda 5 - eCola Cup",
+        AnimationOptions = {
+            Prop = 'prop_rpemotes_soda03',
+            PropBone = 28422,
+            PropPlacement = {
+                0.0060,
+                0.0010,
+                0.0,
+                0.0,
+                0.0,
+                80.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["soda6"] = {
+        "amb@code_human_wander_drinking@male@base",
+        "static",
+        "Soda 6 - eCola Light Cup",
+        AnimationOptions = {
+            Prop = 'prop_rpemotes_soda04',
+            PropBone = 28422,
+            PropPlacement = {
+                0.0060,
+                0.0010,
+                0.0,
+                0.0,
+                0.0,
+                80.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["soda7"] = {
+        "amb@code_human_wander_drinking@male@base",
+        "static",
+        "Soda 7- Sprunk Cup",
+        AnimationOptions = {
+            Prop = 'prop_rpemotes_soda01',
+            PropBone = 28422,
+            PropPlacement = {
+                0.0060,
+                0.0010,
+                0.0,
+                0.0,
+                0.0,
+                80.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["soda8"] = {
+        "amb@code_human_wander_drinking@male@base",
+        "static",
+        "Soda 8 - Sprunk Light Cup",
+        AnimationOptions = {
+            Prop = 'prop_rpemotes_soda02',
+            PropBone = 28422,
+            PropPlacement = {
+                0.0060,
+                0.0010,
+                0.0,
+                0.0,
+                0.0,
+                80.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["soda9"] = {
+        "amb@world_human_drinking@coffee@male@idle_a",
+        "idle_c",
+        "Soda 9 - Orange Flavoured Can",
+        AnimationOptions = {
+            Prop = 'prop_orang_can_01',
+            PropBone = 28422,
+            PropPlacement = {
+                0.0,
+                0.0,
+                0.0,
                 0.0,
                 0.0,
                 130.0
             },
             EmoteLoop = true,
             EmoteMoving = true
+        }
+    },
+    ["sipsoda"] = {
+        "smo@milkshake_idle",
+        "milkshake_idle_clip",
+        "Sip Soda Cup - Sprunk",
+        AnimationOptions = {
+            Prop = 'prop_rpemotes_soda01',
+            PropBone = 28422,
+            PropPlacement = {
+               0.0470,
+               0.0040,
+              -0.0600,
+            -88.0263,
+            -25.0367,
+            -27.3898
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["sipsodab"] = {
+        "smo@milkshake_idle",
+        "milkshake_idle_clip",
+        "Sip Soda Cup - Sprunk Light",
+        AnimationOptions = {
+            Prop = 'prop_rpemotes_soda02',
+            PropBone = 28422,
+            PropPlacement = {
+               0.0470,
+               0.0040,
+              -0.0600,
+            -88.0263,
+            -25.0367,
+            -27.3898
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["sipsodac"] = {
+        "smo@milkshake_idle",
+        "milkshake_idle_clip",
+        "Sip Soda Cup - eCola",
+        AnimationOptions = {
+            Prop = 'prop_rpemotes_soda03',
+            PropBone = 28422,
+            PropPlacement = {
+               0.0470,
+               0.0040,
+              -0.0600,
+            -88.0263,
+            -25.0367,
+            -27.3898
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["sipsodad"] = {
+        "smo@milkshake_idle",
+        "milkshake_idle_clip",
+        "Sip Soda Cup - eCola Light",
+        AnimationOptions = {
+            Prop = 'prop_rpemotes_soda04',
+            PropBone = 28422,
+            PropPlacement = {
+               0.0470,
+               0.0040,
+              -0.0600,
+            -88.0263,
+            -25.0367,
+            -27.3898
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["dbsoda"] = {
+       "amb@code_human_wander_drinking@male@base",
+        "static",
+        "Soda - Dumb Bitch",
+        AnimationOptions = {
+            Prop = 'dumbbitchjuice',
+            PropBone = 28422,
+            PropPlacement = {
+                0.0060,
+               -0.0020,
+               -0.0700,
+              180.0000,
+              180.0000,
+              -10.0000
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["frappe"] = {
+        "amb@code_human_wander_drinking@male@base",
+        "static",
+        "Frappe",
+        AnimationOptions = {
+            Prop = 'brum_heartfrappe',
+            PropBone = 28422,
+            PropPlacement = {
+                0.0,
+               -0.0150,
+               -0.0100,
+                0.0,
+               -3.9999,
+                0.0,
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["frappe2"] = {
+        "amb@code_human_wander_drinking@female@base",
+        "static",
+        "Frappe 2",
+        AnimationOptions = {
+            Prop = 'beanmachine_cup',
+            PropBone = 28422,
+            PropPlacement = {
+                0.0110,
+                0.0,
+                0.0300,
+                0.0,
+                0.0,
+             -140.0,
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["frappe3"] = {
+        "amb@code_human_wander_drinking@female@base",
+        "static",
+        "Frappe 3",
+        AnimationOptions = {
+            Prop = 'beanmachine_cup2',
+            PropBone = 28422,
+            PropPlacement = {
+                0.0,
+                0.0,
+               -0.0600,
+                0.0,
+                0.0,
+             -178.0,
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["frappe4"] = {
+        "amb@code_human_wander_drinking@female@base",
+        "static",
+        "Frappe 4",
+        AnimationOptions = {
+            Prop = 'beanmachine_cup3',
+            PropBone = 28422,
+            PropPlacement = {
+                0.0,
+                0.0,
+               -0.0600,
+                0.0,
+                0.0,
+             -178.0,
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["edrink"] = {
+        "mp_player_intdrink",
+        "loop_bottle",
+        "Energy Drink - Bottle",
+        AnimationOptions =
+        {
+            Prop = "prop_energy_drink",
+            PropBone = 60309,
+            PropPlacement = {
+                0.0080,
+                0.0010,
+                0.0160,
+                3.5690,
+                4.6611,
+              -49.9065
+            },
+            EmoteMoving = true,
+            EmoteLoop = true
+        }
+    },
+    ["edrink2"] = {
+        "amb@world_human_drinking@coffee@male@idle_a",
+        "idle_c",
+        "Energy Drink - Can",
+        AnimationOptions =
+        {
+            Prop = "sf_prop_sf_can_01a",
+            PropBone = 28422,
+            PropPlacement = {
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+             -110.0
+            },
+            EmoteMoving = true,
+            EmoteLoop = true
+        }
+    },
+    ["edrink3"] = {
+        "amb@world_human_drinking@coffee@male@idle_a",
+        "idle_c",
+        "Energy Drink - XXL Can",
+        AnimationOptions =
+        {
+            Prop = "sf_p_sf_grass_gls_s_01a",
+            PropBone = 28422,
+            PropPlacement = {
+                0.0000,
+                0.0000,
+               -0.1400,
+                0.0000,
+                0.0000,
+                9.0000
+            },
+            EmoteMoving = true,
+            EmoteLoop = true
+        }
+    },
+    ["mshake"] = {
+        "amb@code_human_wander_drinking@female@base",
+        "static",
+        "Milshake - Bubblegum",
+        AnimationOptions = {
+            Prop = 'brum_cherryshake_bubblegum',
+            PropBone = 28422,
+            PropPlacement = {
+                0.0030,
+                0.0280,
+                0.0800,
+               -180.0,
+               -180.0,
+                 30.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["mshakeb"] = {
+        "amb@code_human_wander_drinking@female@base",
+        "static",
+        "Milshake - Cherry",
+        AnimationOptions = {
+            Prop = 'brum_cherryshake_cherry',
+            PropBone = 28422,
+            PropPlacement = {
+               0.0030,
+                0.0280,
+                0.0800,
+               -180.0,
+               -180.0,
+                 30.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["mshakec"] = {
+       "amb@code_human_wander_drinking@female@base",
+        "static",
+        "Milshake - Chocolate",
+        AnimationOptions = {
+            Prop = 'brum_cherryshake_chocolate',
+            PropBone = 28422,
+            PropPlacement = {
+               0.0030,
+                0.0280,
+                0.0800,
+               -180.0,
+               -180.0,
+                 30.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["mshaked"] = {
+        "amb@code_human_wander_drinking@female@base",
+        "static",
+        "Milshake - Coffee",
+        AnimationOptions = {
+            Prop = 'brum_cherryshake_coffee',
+            PropBone = 28422,
+            PropPlacement = {
+               0.0030,
+                0.0280,
+                0.0800,
+               -180.0,
+               -180.0,
+                 30.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["mshakee"] = {
+        "amb@code_human_wander_drinking@female@base",
+        "static",
+        "Milshake - Double Chocolate",
+        AnimationOptions = {
+            Prop = 'brum_cherryshake_doublechocolate',
+            PropBone = 28422,
+            PropPlacement = {
+               0.0030,
+                0.0280,
+                0.0800,
+               -180.0,
+               -180.0,
+                 30.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["mshakef"] = {
+        "amb@code_human_wander_drinking@female@base",
+        "static",
+        "Milshake - Frappe",
+        AnimationOptions = {
+            Prop = 'brum_cherryshake_frappe',
+            PropBone = 28422,
+            PropPlacement = {
+               0.0030,
+                0.0280,
+                0.0800,
+               -180.0,
+               -180.0,
+                 30.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["mshakeg"] = {
+        "amb@code_human_wander_drinking@female@base",
+        "static",
+        "Milshake - Lemon",
+        AnimationOptions = {
+            Prop = 'brum_cherryshake_lemon',
+            PropBone = 28422,
+            PropPlacement = {
+               0.0030,
+                0.0280,
+                0.0800,
+               -180.0,
+               -180.0,
+                 30.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["mshakeh"] = {
+        "amb@code_human_wander_drinking@female@base",
+        "static",
+        "Milshake - Mint",
+        AnimationOptions = {
+            Prop = 'brum_cherryshake_mint',
+            PropBone = 28422,
+            PropPlacement = {
+               0.0030,
+                0.0280,
+                0.0800,
+               -180.0,
+               -180.0,
+                 30.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["mshakei"] = {
+        "amb@code_human_wander_drinking@female@base",
+        "static",
+        "Milshake - Strawberry",
+        AnimationOptions = {
+            Prop = 'brum_cherryshake_strawberry',
+            PropBone = 28422,
+            PropPlacement = {
+               0.0030,
+                0.0280,
+                0.0800,
+               -180.0,
+               -180.0,
+                 30.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["mshakej"] = {
+        "amb@code_human_wander_drinking@female@base",
+        "static",
+        "Milshake - Raspberry",
+        AnimationOptions = {
+            Prop = 'brum_cherryshake_raspberry',
+            PropBone = 28422,
+            PropPlacement = {
+               0.0030,
+                0.0280,
+                0.0800,
+               -180.0,
+               -180.0,
+                 30.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["mshakek"] = {
+        "amb@code_human_wander_drinking@female@base",
+        "static",
+        "Milshake - Salted",
+        AnimationOptions = {
+            Prop = 'brum_cherryshake_salted',
+            PropBone = 28422,
+            PropPlacement = {
+               0.0030,
+                0.0280,
+                0.0800,
+               -180.0,
+               -180.0,
+                 30.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["mshakel"] = {
+        "amb@code_human_wander_drinking@female@base",
+        "static",
+        "Milshake - Vanilla",
+        AnimationOptions = {
+            Prop = 'brum_cherryshake_vanilla',
+            PropBone = 28422,
+            PropPlacement = {
+               0.0030,
+                0.0280,
+                0.0800,
+               -180.0,
+               -180.0,
+                 30.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["sipshake"] = {
+        "smo@milkshake_idle",
+        "milkshake_idle_clip",
+        "Sip Milkshake - Bubblegum",
+        AnimationOptions = {
+            Prop = 'brum_cherryshake_raspberry',
+            PropBone = 28422,
+            PropPlacement = {
+               0.0850,
+               0.0670,
+              -0.0350,
+            -115.0862,
+            -165.7841,
+              24.1318
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["sipshakeb"] = {
+        "smo@milkshake_idle",
+        "milkshake_idle_clip",
+        "Sip Milkshake - Cherry",
+        AnimationOptions = {
+            Prop = 'brum_cherryshake_cherry',
+            PropBone = 28422,
+            PropPlacement = {
+               0.0850,
+               0.0670,
+              -0.0350,
+            -115.0862,
+            -165.7841,
+              24.1318
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["sipshakec"] = {
+        "smo@milkshake_idle",
+        "milkshake_idle_clip",
+        "Sip Milkshake - Chocolate",
+        AnimationOptions = {
+            Prop = 'brum_cherryshake_chocolate',
+            PropBone = 28422,
+            PropPlacement = {
+               0.0850,
+               0.0670,
+              -0.0350,
+            -115.0862,
+            -165.7841,
+              24.1318
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["sipshaked"] = {
+        "smo@milkshake_idle",
+        "milkshake_idle_clip",
+        "Sip Milkshake - Coffee",
+        AnimationOptions = {
+            Prop = 'brum_cherryshake_coffee',
+            PropBone = 28422,
+            PropPlacement = {
+               0.0850,
+               0.0670,
+              -0.0350,
+            -115.0862,
+            -165.7841,
+              24.1318
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["sipshakee"] = {
+        "smo@milkshake_idle",
+        "milkshake_idle_clip",
+        "Sip Milkshake - Double Chocolate",
+        AnimationOptions = {
+            Prop = 'brum_cherryshake_doublechocolate',
+            PropBone = 28422,
+            PropPlacement = {
+               0.0850,
+               0.0670,
+              -0.0350,
+            -115.0862,
+            -165.7841,
+              24.1318
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["sipshakef"] = {
+        "smo@milkshake_idle",
+        "milkshake_idle_clip",
+        "Sip Milkshake - Frappe",
+        AnimationOptions = {
+            Prop = 'brum_cherryshake_frappe',
+            PropBone = 28422,
+            PropPlacement = {
+               0.0850,
+               0.0670,
+              -0.0350,
+            -115.0862,
+            -165.7841,
+              24.1318
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["sipshakeg"] = {
+        "smo@milkshake_idle",
+        "milkshake_idle_clip",
+        "Sip Milkshake - Lemon",
+        AnimationOptions = {
+            Prop = 'brum_cherryshake_lemon',
+            PropBone = 28422,
+            PropPlacement = {
+               0.0850,
+               0.0670,
+              -0.0350,
+            -115.0862,
+            -165.7841,
+              24.1318
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["sipshakeh"] = {
+        "smo@milkshake_idle",
+        "milkshake_idle_clip",
+        "Sip Milkshake - Mint",
+        AnimationOptions = {
+            Prop = 'brum_cherryshake_mint',
+            PropBone = 28422,
+            PropPlacement = {
+               0.0850,
+               0.0670,
+              -0.0350,
+            -115.0862,
+            -165.7841,
+              24.1318
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["sipshakei"] = {
+        "smo@milkshake_idle",
+        "milkshake_idle_clip",
+        "Sip Milkshake - Strawberry",
+        AnimationOptions = {
+            Prop = 'brum_cherryshake_strawberry',
+            PropBone = 28422,
+            PropPlacement = {
+               0.0850,
+               0.0670,
+              -0.0350,
+            -115.0862,
+            -165.7841,
+              24.1318
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["sipshakej"] = {
+        "smo@milkshake_idle",
+        "milkshake_idle_clip",
+        "Sip Milkshake - Raspberry",
+        AnimationOptions = {
+            Prop = 'brum_cherryshake_raspberry',
+            PropBone = 28422,
+            PropPlacement = {
+               0.0850,
+               0.0670,
+              -0.0350,
+            -115.0862,
+            -165.7841,
+              24.1318
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["sipshakek"] = {
+        "smo@milkshake_idle",
+        "milkshake_idle_clip",
+        "Sip Milkshake - Salted",
+        AnimationOptions = {
+            Prop = 'brum_cherryshake_salted',
+            PropBone = 28422,
+            PropPlacement = {
+               0.0850,
+               0.0670,
+              -0.0350,
+            -115.0862,
+            -165.7841,
+              24.1318
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["sipshakel"] = {
+        "smo@milkshake_idle",
+        "milkshake_idle_clip",
+        "Sip Milkshake - Vanilla",
+        AnimationOptions = {
+            Prop = 'brum_cherryshake_vanilla',
+            PropBone = 28422,
+            PropPlacement = {
+               0.0850,
+               0.0670,
+              -0.0350,
+            -115.0862,
+            -165.7841,
+              24.1318
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["sodafu"] = {
+        "anim@male_drinking_01",
+        "m_drinking_01_clip",
+        "Soda Middle Finger eCola",
+        AnimationOptions = {
+            Prop = 'prop_ecola_can',
+            PropBone = 26613,
+            PropPlacement = {
+                0.0400,
+               -0.0500,
+                0.0390,
+                0.0000,
+                0.000,
+              -69.9999
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["sodafu2"] = {
+        "anim@male_drinking_01",
+        "m_drinking_01_clip",
+        "Soda Middle Finger Sprunk",
+        AnimationOptions = {
+            Prop = 'ng_proc_sodacan_01b',
+            PropBone = 26613,
+            PropPlacement = {
+                0.0300,
+               -0.0600,
+               -0.0700,
+                0.0000,
+                0.000,
+                0.000,
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["water"] = {
+        "mp_player_intdrink",
+        "loop_bottle",
+        "Water Bottle",
+        AnimationOptions =
+        {
+            Prop = "vw_prop_casino_water_bottle_01a",
+            PropBone = 60309,
+            PropPlacement = {
+                0.0080,
+                0.0,
+               -0.0500,
+                0.0,
+                0.0,
+              -40.0000
+            },
+            EmoteMoving = true,
+            EmoteLoop = true
         }
     },
     ["egobar"] = {
@@ -11146,6 +12922,112 @@ RP.PropEmotes = {
             EmoteLoop = true
         }
     },
+    ["bookb"] = {
+        "holding_book_1@dark",
+        "holding_book_1_clip",
+        "Book 2",
+        AnimationOptions = {
+            Prop = 'prop_cs_book_01',
+            PropBone = 57005,
+            PropPlacement = {
+                0.0900,
+                0.0900,
+               -0.0400,
+               80.1585,
+              158.5623,
+               24.7080,
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["bookc"] = {
+        "holding_book_2@dark",
+        "holding_book_2_clip",
+        "Book 3",
+        AnimationOptions = {
+            Prop = "prop_michael_backpack",
+            PropBone = 40269,
+            PropPlacement = {
+                0.0300,
+               -0.1600,
+               -0.0900,
+              -170.7740,
+               112.8415,
+               -20.0836
+            },
+            SecondProp = 'prop_cs_book_01',
+            SecondPropBone = 18905,
+            SecondPropPlacement = {
+                0.0400,
+                0.0400,
+                0.0300,
+              -69.0815,
+              176.3905,
+              19.3724
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["bookd"] = {
+        "holding_book_3@dark",
+        "holding_book_3_clip",
+        "Book 4",
+        AnimationOptions = {
+            Prop = 'prop_cs_stock_book',
+            PropBone = 18905,
+            PropPlacement = {
+                0.0700,
+                0.0400,
+                0.0700,
+                0.0000,
+                0.0000,
+              -15.0000
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["booke"] = {
+        "holding_book_4@dark",
+        "holding_book_4_clip",
+        "Book 5",
+        AnimationOptions = {
+            Prop = 'prop_cs_stock_book',
+            PropBone = 57005,
+            PropPlacement = {
+                0.0100,
+                0.0100,
+               -0.0600,
+               15.1511,
+                3.1232,
+              -21.2448
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["bookf"] = {
+        "holding_book_5@dark",
+        "holding_book_5_clip",
+        "Book 6",
+        AnimationOptions = {
+            Prop = 'v_ilev_mp_bedsidebook',
+            PropBone = 18905,
+            PropPlacement = {
+                0.2100,
+                0.0600,
+                0.0400,
+              170.6161,
+              -14.2960,
+               28.8727
+            },
+            EmoteLoop = true,
+            ExitEmote = "getup",
+            ExitEmoteType = "Exits"
+        }
+    },
     ["bouquet"] = {
         "impexp_int-0",
         "mp_m_waremech_01_dual-0",
@@ -11165,6 +13047,25 @@ RP.PropEmotes = {
             EmoteLoop = true
         }
     },
+    ["bouquet2"] = {
+        "impexp_int-0",
+        "mp_m_waremech_01_dual-0",
+        "Bouquet 2",
+        AnimationOptions = {
+            Prop = 'pata_freevalentinesday3',
+            PropBone = 28422,
+            PropPlacement = {
+               -0.0100,
+                0.0300,
+               -0.1700,
+               -6.0697,
+               60.1852,
+                3.4934
+            },
+            EmoteMoving = true,
+            EmoteLoop = true
+        }
+    },
     ["teddy"] = {
         "impexp_int-0",
         "mp_m_waremech_01_dual-0",
@@ -11179,6 +13080,25 @@ RP.PropEmotes = {
                 -180.0,
                 -90.0,
                 0.0
+            },
+            EmoteMoving = true,
+            EmoteLoop = true
+        }
+    },
+    ["teddy2"] = {
+        "impexp_int-0",
+        "mp_m_waremech_01_dual-0",
+        "Teddy 2 - Gremlin",
+        AnimationOptions = {
+            Prop = 'gremlin_plush',
+            PropBone = 57005,
+            PropPlacement = {
+                0.2610,
+               -0.1220,
+               -0.0290,
+              -96.2588,
+              62.8313,
+               9.2446
             },
             EmoteMoving = true,
             EmoteLoop = true
@@ -11510,9 +13430,41 @@ RP.PropEmotes = {
         }
     },
     ["camera"] = {
+        "stand_camera_1@dad",
+        "stand_camera_1_clip",
+        "Camera",
+        AnimationOptions = {
+            Prop = 'prop_pap_camera_01',
+            PropBone = 57005,
+            PropPlacement = {
+                0.1040,
+               -0.0060,
+               -0.0600,
+               -2.7280,
+                33.0998,
+                4.1917
+            },
+            EmoteLoop = true,
+            EmoteMoving = true,
+            PtfxAsset = "scr_bike_business",
+            PtfxName = "scr_bike_cfid_camera_flash",
+            PtfxPlacement = {
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            },
+            PtfxInfo = Config.Languages[Config.MenuLanguage]['camera'],
+            PtfxWait = 200
+        }
+    },
+    ["camera2"] = {
         "amb@world_human_paparazzi@male@base",
         "base",
-        "Camera",
+        "Camera 2",
         AnimationOptions = {
             Prop = 'prop_pap_camera_01',
             PropBone = 28422,
@@ -11541,10 +13493,10 @@ RP.PropEmotes = {
             PtfxWait = 200
         }
     },
-    ["camera2"] = {
+    ["camera3"] = {
         "cellphone@female",
         "cellphone_text_read_base_cover_low",
-        "Camera 2",
+        "Camera 3",
         AnimationOptions = {
             Prop = "prop_ing_camera_01",
             PropBone = 28422,
@@ -11573,6 +13525,70 @@ RP.PropEmotes = {
             PtfxWait = 200
         }
     },
+    ["camera4"] = {
+        "chocoholic@single110a",
+        "single110a_clip",
+        "Camera 4",
+        AnimationOptions = {
+            Prop = "prop_ing_camera_01",
+            PropBone = 28422,
+            PropPlacement = {
+                0.0710,
+                0.0150,
+               -0.0420,
+              -68.3220,
+               99.6144,
+                2.9027
+            },
+            EmoteLoop = false,
+            EmoteMoving = true,
+            PtfxAsset = "scr_bike_business",
+            PtfxName = "scr_bike_cfid_camera_flash",
+            PtfxPlacement = {
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            },
+            PtfxInfo = Config.Languages[Config.MenuLanguage]['camera'],
+            PtfxWait = 200
+        }
+     },
+    ["camera5"] = {
+        "chocoholic@single110b",
+        "single110b_clip",
+        "Camera 5",
+        AnimationOptions = {
+            Prop = "prop_ing_camera_01",
+            PropBone = 60309,
+            PropPlacement = {
+                0.0980,
+                0.0560,
+                0.1330,
+              -15.8221,
+              107.0825,
+              -16.0159
+            },
+            EmoteLoop = false,
+            EmoteMoving = true,
+            PtfxAsset = "scr_bike_business",
+            PtfxName = "scr_bike_cfid_camera_flash",
+            PtfxPlacement = {
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            },
+            PtfxInfo = Config.Languages[Config.MenuLanguage]['camera'],
+            PtfxWait = 200
+        }
+     },
     ["champagnespray"] = {
         "anim@mp_player_intupperspray_champagne",
         "idle_a",
@@ -11745,7 +13761,7 @@ RP.PropEmotes = {
         "cellphone_call_listen_base",
         "Phone Call",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -11774,7 +13790,7 @@ RP.PropEmotes = {
         "ig_1_girl_on_phone_loop",
         "Phone Call 2",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -11815,6 +13831,63 @@ RP.PropEmotes = {
             },
             EmoteLoop = true,
             EmoteMoving = true
+        }
+    },
+	["wt2"] = {
+        "anim@radio_pose_3",
+        "radio_holding_gun",
+        "Walkie Talkie 2",
+        AnimationOptions = {
+            Prop = "prop_cs_hand_radio",
+            PropBone = 60309,
+            PropPlacement = {
+                0.0750,
+                0.0470,
+                0.0110,
+              -97.9442,
+                3.7058,
+                -23.2367
+				},
+            EmoteLoop = true,
+
+        }
+    },
+    ["wt3"] = {
+        "anim@radio_left",
+        "radio_left_clip",
+        "Walkie Talkie 3 Left",
+        AnimationOptions = {
+            Prop = "prop_cs_hand_radio",
+            PropBone = 60309,
+            PropPlacement = {
+                0.0750,
+                0.0470,
+                0.0110,
+              -97.9442,
+                3.7058,
+                -23.2367
+				},
+            EmoteLoop = true,
+			EmoteMoving = true
+        }
+    },
+    ["wt4"] = {
+        "anim@male@holding_radio",
+        "holding_radio_clip",
+        "Walkie Talkie 4",
+        AnimationOptions = {
+            Prop = "prop_cs_hand_radio",
+            PropBone = 28422,
+            PropPlacement = {
+                0.0750,
+                0.0230,
+               -0.0230,
+              -90.0000,
+                0.0,
+              -59.9999
+				},
+            EmoteLoop = true,
+			EmoteMoving = true
         }
     },
     ["clean"] = {
@@ -11894,44 +13967,44 @@ RP.PropEmotes = {
             EmoteMoving = true
         }
     },
-    ["binoculars"] = {
-        "amb@world_human_binoculars@male@idle_b",
-        "idle_f",
-        "Binoculars",
-        AnimationOptions = {
-            Prop = "prop_binoc_01",
-            PropBone = 28422,
-            PropPlacement = {
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0
-            },
-            EmoteLoop = true,
-            EmoteMoving = true
-        }
-    },
-    ["binoculars2"] = {
-        "amb@world_human_binoculars@male@idle_a",
-        "idle_c",
-        "Binoculars 2",
-        AnimationOptions = {
-            Prop = "prop_binoc_01",
-            PropBone = 28422,
-            PropPlacement = {
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0
-            },
-            EmoteLoop = true,
-            EmoteMoving = true
-        }
-    },
+    -- ["binoculars"] = {
+    --     "amb@world_human_binoculars@male@idle_b",
+    --     "idle_f",
+    --     "Binoculars",
+    --     AnimationOptions = {
+    --         Prop = "prop_binoc_01",
+    --         PropBone = 28422,
+    --         PropPlacement = {
+    --             0.0,
+    --             0.0,
+    --             0.0,
+    --             0.0,
+    --             0.0,
+    --             0.0
+    --         },
+    --         EmoteLoop = true,
+    --         EmoteMoving = true
+    --     }
+    -- },
+    -- ["binoculars2"] = {
+    --     "amb@world_human_binoculars@male@idle_a",
+    --     "idle_c",
+    --     "Binoculars 2",
+    --     AnimationOptions = {
+    --         Prop = "prop_binoc_01",
+    --         PropBone = 28422,
+    --         PropPlacement = {
+    --             0.0,
+    --             0.0,
+    --             0.0,
+    --             0.0,
+    --             0.0,
+    --             0.0
+    --         },
+    --         EmoteLoop = true,
+    --         EmoteMoving = true
+    --     }
+    -- },
     ["tennisplay"] = {
         "move_weapon@jerrycan@generic",
         "idle",
@@ -12950,25 +15023,25 @@ RP.PropEmotes = {
             EmoteMoving = true
         }
     },
-    ["newscam"] = {
-        "missfinale_c2mcs_1",
-        "fin_c2_mcs_1_camman",
-        "News Camera",
-        AnimationOptions = {
-            Prop = "prop_v_cam_01",
-            PropBone = 28422,
-            PropPlacement = {
-                0.0,
-                0.0300,
-                0.0100,
-                0.0,
-                0.0,
-                0.0
-            },
-            EmoteLoop = true,
-            EmoteMoving = true
-        }
-    },
+    -- ["newscam"] = {
+    --     "missfinale_c2mcs_1",
+    --     "fin_c2_mcs_1_camman",
+    --     "News Camera",
+    --     AnimationOptions = {
+    --         Prop = "prop_v_cam_01",
+    --         PropBone = 28422,
+    --         PropPlacement = {
+    --             0.0,
+    --             0.0300,
+    --             0.0100,
+    --             0.0,
+    --             0.0,
+    --             0.0
+    --         },
+    --         EmoteLoop = true,
+    --         EmoteMoving = true
+    --     }
+    -- },
     ["newsmic"] = {
         "anim@heists@humane_labs@finale@keycards",
         "ped_a_enter_loop",
@@ -13689,7 +15762,7 @@ RP.PropEmotes = {
         "idle_a",
         "Selfie",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -13718,7 +15791,7 @@ RP.PropEmotes = {
         "peace",
         "Selfie 2",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -13747,7 +15820,7 @@ RP.PropEmotes = {
         "west_coast",
         "Selfie 3 - West Side",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -13776,7 +15849,7 @@ RP.PropEmotes = {
         "aggressive_finger",
         "Selfie 4 - Finger",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -13805,7 +15878,7 @@ RP.PropEmotes = {
         "proud_finger",
         "Selfie 5 - Finger 2",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -13834,7 +15907,7 @@ RP.PropEmotes = {
         "throat_slit",
         "Selfie 6 - Throat Slit",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -13863,7 +15936,7 @@ RP.PropEmotes = {
         "chest_bump",
         "Selfie 7 - Chest Bump",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -13892,7 +15965,7 @@ RP.PropEmotes = {
         "base",
         "Selfie Peace",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -13934,7 +16007,7 @@ RP.PropEmotes = {
         "base",
         "Selfie Crouching",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -13976,7 +16049,7 @@ RP.PropEmotes = {
         "girl",
         "Selfie Crouching 2",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -13998,6 +16071,8 @@ RP.PropEmotes = {
             },
             EmoteLoop = true,
             EmoteMoving = false,
+            ExitEmote = "getup",
+            ExitEmoteType = "Exits",
             PtfxAsset = "scr_tn_meet",
             PtfxName = "scr_tn_meet_phone_camera_flash",
             PtfxPlacement = {
@@ -14018,7 +16093,7 @@ RP.PropEmotes = {
         "insta_selfie_clip",
         "Selfie Crouching 3",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -14060,7 +16135,7 @@ RP.PropEmotes = {
         "selfie_risque_clip",
         "Selfie Crouching 4",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -14102,7 +16177,7 @@ RP.PropEmotes = {
         "cute_selfie_clip",
         "Selfie E Girl",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -14144,7 +16219,7 @@ RP.PropEmotes = {
         "slutarch_selfie_clip",
         "Selfie Slut Pose",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -14188,7 +16263,7 @@ RP.PropEmotes = {
         "female_sitting_selfie_clip",
         "Selfie Sitting",
         AnimationOptions = {
-            Prop = 'prop_phone_ing',
+            Prop = 'prop_phone_taymckenzienz',
             PropBone = 57005,
             PropPlacement = {
                 0.1380,
@@ -14217,7 +16292,7 @@ RP.PropEmotes = {
         "boy",
         "Selfie Sitting 2",
         AnimationOptions = {
-            Prop = 'prop_phone_ing',
+            Prop = 'prop_phone_taymckenzienz',
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -14254,12 +16329,98 @@ RP.PropEmotes = {
             PtfxWait = 200
         }
     },
+    ["selfiesit3"] = { -- Emote by Chocoholic Animations 
+        "chocoholic@single77",
+        "single77_clip",
+        "Selfie Sitting 3",
+        AnimationOptions = {
+            Prop = 'prop_phone_taymckenzienz',
+            PropTextureVariations = {
+                {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
+                {Name = "<font color=\"#1AA20E\">Green", Value = 1},
+                {Name = "<font color=\"#800B0B\">Dark Red", Value = 2},
+                {Name = "<font color=\"#FF7B00\">Orange", Value = 3},
+                {Name = "<font color=\"#5F5F5F\">Grey", Value = 4},
+                {Name = "<font color=\"#a356fa\">Purple", Value = 5},
+                {Name = "<font color=\"#FF0099\">Pink", Value = 6},
+                {Name = "Black", Value = 7}
+            },
+            PropBone = 4185,
+            PropPlacement = {
+                0.0130,
+               -0.0190,
+                0.0320,
+                0.0,
+                0.0000,
+                0.0,
+            },
+            EmoteLoop = true,
+            EmoteMoving = false,
+            ExitEmote = "getup",
+            ExitEmoteType = "Exits",
+            PtfxAsset = "scr_tn_meet",
+            PtfxName = "scr_tn_meet_phone_camera_flash",
+            PtfxPlacement = {
+                -0.015,
+                0.0,
+                0.041,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            },
+            PtfxInfo = Config.Languages[Config.MenuLanguage]['camera'],
+            PtfxWait = 200
+        }
+    },
+    ["selfiesit4"] = { -- Emote by Chocoholic Animations
+        "chocoholic@single89",
+        "single89_clip",
+        "Selfie Sitting 4",
+        AnimationOptions = {
+            Prop = 'prop_phone_taymckenzienz',
+            PropTextureVariations = {
+                {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
+                {Name = "<font color=\"#1AA20E\">Green", Value = 1},
+                {Name = "<font color=\"#800B0B\">Dark Red", Value = 2},
+                {Name = "<font color=\"#FF7B00\">Orange", Value = 3},
+                {Name = "<font color=\"#5F5F5F\">Grey", Value = 4},
+                {Name = "<font color=\"#a356fa\">Purple", Value = 5},
+                {Name = "<font color=\"#FF0099\">Pink", Value = 6},
+                {Name = "Black", Value = 7}
+            },
+            PropBone = 4169, -- Left Finger 11
+            PropPlacement = {
+                0.0100,
+               -0.0330,
+                0.000,
+               -19.7197,
+                 9.4080,
+                -3.4048
+            },
+            EmoteLoop = true,
+            EmoteMoving = false,
+            PtfxAsset = "scr_tn_meet",
+            PtfxName = "scr_tn_meet_phone_camera_flash",
+            PtfxPlacement = {
+                -0.015,
+                0.0,
+                0.041,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            },
+            PtfxInfo = Config.Languages[Config.MenuLanguage]['camera'],
+            PtfxWait = 200
+        }
+    },
     ["selfiefu"] = { -- Struggleville
         "anim@fuck_you_selfie",
         "fuck_you_selfie_clip",
         "Selfie Middle Finger",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -14301,7 +16462,7 @@ RP.PropEmotes = {
         "sitting_thot_clip",
         "Selfie Thot Instagram",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -14323,6 +16484,8 @@ RP.PropEmotes = {
             },
             EmoteLoop = true,
             EmoteMoving = false,
+            ExitEmote = "getup",
+            ExitEmoteType = "Exits",
             PtfxAsset = "scr_tn_meet",
             PtfxName = "scr_tn_meet_phone_camera_flash",
             PtfxPlacement = {
@@ -14343,7 +16506,7 @@ RP.PropEmotes = {
         "floor_cute_clip",
         "Selfie Floor Instagram",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -14365,6 +16528,8 @@ RP.PropEmotes = {
             },
             EmoteLoop = true,
             EmoteMoving = false,
+            ExitEmote = "getup",
+            ExitEmoteType = "Exits",
             PtfxAsset = "scr_tn_meet",
             PtfxName = "scr_tn_meet_phone_camera_flash",
             PtfxPlacement = {
@@ -14380,12 +16545,109 @@ RP.PropEmotes = {
             PtfxWait = 200
         }
     },
+    ["selfiefloor2"] = { -- Custom Emote By Struggleville
+        "anim@female_selfie_04",
+        "f_selfie_04_clip",
+        "Selfie Floor 2",
+        AnimationOptions = {
+            Prop = "prop_phone_taymckenzienz",
+            PropTextureVariations = {
+                {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
+                {Name = "<font color=\"#1AA20E\">Green", Value = 1},
+                {Name = "<font color=\"#800B0B\">Dark Red", Value = 2},
+                {Name = "<font color=\"#FF7B00\">Orange", Value = 3},
+                {Name = "<font color=\"#5F5F5F\">Grey", Value = 4},
+                {Name = "<font color=\"#a356fa\">Purple", Value = 5},
+                {Name = "<font color=\"#FF0099\">Pink", Value = 6},
+                {Name = "Black", Value = 7}
+            },
+            PropBone = 4185,
+            PropPlacement = {
+                0.0170,
+               -0.0100,
+                0.0200,
+              -27.3580,
+               54.9374,
+               -6.1611
+            },
+            EmoteLoop = true,
+            EmoteMoving = false,
+            ExitEmote = "getup",
+            ExitEmoteType = "Exits",
+            PtfxAsset = "scr_tn_meet",
+            PtfxName = "scr_tn_meet_phone_camera_flash",
+            PtfxPlacement = {
+                -0.015,
+                0.0,
+                0.041,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            },
+            PtfxInfo = Config.Languages[Config.MenuLanguage]['camera'],
+            PtfxWait = 200
+        }
+    },
+    ["selfiefloor3"] = { -- Custom Emote By Chocoholic Animations
+        "chocoholic@single90",
+        "single90_clip",
+        "Selfie & Wine",
+        AnimationOptions = {
+            Prop = 'p_wine_glass_s',
+            PropBone = 28422,
+            PropPlacement = {
+                0.0800,
+                0.0170,
+                0.0810,
+               -174.2748,
+               -11.5083,
+                29.4987
+            },
+            SecondProp = 'prop_phone_taymckenzienz',
+            PropTextureVariations = {
+                { Name = "<font color=\"#00A0F4\">Blue", Value = 0 },
+                { Name = "<font color=\"#1AA20E\">Green", Value = 1 },
+                { Name = "<font color=\"#800B0B\">Dark Red", Value = 2 },
+                { Name = "<font color=\"#FF7B00\">Orange", Value = 3 },
+                { Name = "<font color=\"#5F5F5F\">Grey", Value = 4 },
+                { Name = "<font color=\"#a356fa\">Purple", Value = 5 },
+                { Name = "<font color=\"#FF0099\">Pink", Value = 6 },
+                { Name = "Black", Value = 7 },
+            },
+            SecondPropBone = 4186, -- Left Finger 22
+            SecondPropPlacement = {
+               -0.0100,
+                0.0000,
+                0.0200,
+              -80.0000,
+                0.0000,
+              -20.0000
+            },
+            PtfxAsset = "scr_tn_meet",
+            PtfxName = "scr_tn_meet_phone_camera_flash",
+            PtfxPlacement = {
+                -0.015,
+                0.0,
+                0.041,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            },
+            PtfxInfo = Config.Languages[Config.MenuLanguage]['camera'],
+            PtfxWait = 200,
+            EmoteLoop = true,
+            ExitEmote = "getup",
+            ExitEmoteType = "Exits"
+        }
+    },
     ["selfiesexy"] = { -- Custom Emote By Little Spoon, designed for a custom iFruit phone model, however I am sticking with default game props for now
         "littlespoon@selfie001",
         "selfie001",
         "Selfie Sexy",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -14427,7 +16689,7 @@ RP.PropEmotes = {
         "selfie002",
         "Selfie Sexy 2",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -14469,7 +16731,7 @@ RP.PropEmotes = {
         "selfie003",
         "Selfie Sexy 3",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -14511,7 +16773,7 @@ RP.PropEmotes = {
         "selfie004",
         "Selfie Sexy 4",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -14553,7 +16815,7 @@ RP.PropEmotes = {
         "selfie005",
         "Selfie Sexy 5",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -14595,7 +16857,7 @@ RP.PropEmotes = {
         "freeselfie01",
         "Selfie Cute",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -14637,7 +16899,7 @@ RP.PropEmotes = {
         "freeselfie02",
         "Selfie Cute 2",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -14679,7 +16941,7 @@ RP.PropEmotes = {
         "freeselfie03",
         "Selfie Cute 3",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -14721,7 +16983,7 @@ RP.PropEmotes = {
         "1foot_selfie_clip",
         "Selfie Cute 4",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -14763,7 +17025,7 @@ RP.PropEmotes = {
         "girl",
         "Selfie Cute 5",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -14805,7 +17067,7 @@ RP.PropEmotes = {
         "booty_selfie_clip",
         "Selfie Beach Bum",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -14857,7 +17119,7 @@ RP.PropEmotes = {
                 -178.3549,
                 69.1794
             },
-            SecondProp = 'prop_phone_ing',-- Cell Phone Left Finger 21
+            SecondProp = 'prop_phone_taymckenzienz',-- Cell Phone Left Finger 21
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -14899,7 +17161,7 @@ RP.PropEmotes = {
         "heartselfie_clip",
         "Selfie Heart Hands",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -14941,7 +17203,7 @@ RP.PropEmotes = {
         "mirrorselfie_clip",
         "Selfie Middle Finger 2",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -14993,7 +17255,7 @@ RP.PropEmotes = {
                 1.3049,
                -2.8863
             },
-            SecondProp = "prop_phone_ing",
+            SecondProp = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -15015,6 +17277,8 @@ RP.PropEmotes = {
             },
             EmoteLoop = true,
             EmoteMoving = false,
+            ExitEmote = "getup",
+            ExitEmoteType = "Exits",
             PtfxAsset = "scr_tn_meet",
             PtfxName = "scr_tn_meet_phone_camera_flash",
             PtfxPlacement = {
@@ -15036,7 +17300,7 @@ RP.PropEmotes = {
         "boy",
         "Selfie Male Pose",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -15073,6 +17337,47 @@ RP.PropEmotes = {
             PtfxWait = 200
         }
     },
+    ["selfiemeh"] = { -- Custom Animation By Chocoholic Animations 
+        "chocoholic@single81",
+        "single81_clip",
+        "Selfie Meh",
+        AnimationOptions = {
+            Prop = "prop_phone_taymckenzienz",
+            PropTextureVariations = {
+                {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
+                {Name = "<font color=\"#1AA20E\">Green", Value = 1},
+                {Name = "<font color=\"#800B0B\">Dark Red", Value = 2},
+                {Name = "<font color=\"#FF7B00\">Orange", Value = 3},
+                {Name = "<font color=\"#5F5F5F\">Grey", Value = 4},
+                {Name = "<font color=\"#a356fa\">Purple", Value = 5},
+                {Name = "<font color=\"#FF0099\">Pink", Value = 6},
+                {Name = "Black", Value = 7}
+            },
+            PropBone = 58868,
+            PropPlacement = {
+                0.0450,
+                0.0310,
+                0.0280,
+                165.3005,
+               -174.8342,
+                -8.4770
+            },
+            EmoteLoop = true,
+            PtfxAsset = "scr_tn_meet",
+            PtfxName = "scr_tn_meet_phone_camera_flash",
+            PtfxPlacement = {
+                -0.015,
+                0.0,
+                0.041,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            },
+            PtfxInfo = Config.Languages[Config.MenuLanguage]['camera'],
+            PtfxWait = 200
+        }
+    },
     ["selfiewine"] = { -- Custom Emote By Wolf's Square
         "holding_wine@taking_selfie",
         "base",
@@ -15088,7 +17393,7 @@ RP.PropEmotes = {
                  1.2898,
                 -19.9222
             },
-            SecondProp = 'prop_phone_ing',
+            SecondProp = 'prop_phone_taymckenzienz',
             PropTextureVariations = {
                 { Name = "<font color=\"#00A0F4\">Blue", Value = 0 },
                 { Name = "<font color=\"#1AA20E\">Green", Value = 1 },
@@ -15481,7 +17786,7 @@ RP.PropEmotes = {
                -53.8020,
                -34.4621
             },
-            SecondProp = 'prop_phone_ing',
+            SecondProp = 'prop_phone_taymckenzienz',
             PropTextureVariations = {
                 { Name = "<font color=\"#00A0F4\">Blue", Value = 0 },
                 { Name = "<font color=\"#1AA20E\">Green", Value = 1 },
@@ -15742,7 +18047,7 @@ RP.PropEmotes = {
         "cellphone_text_read_base",
         "Phone",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -15771,7 +18076,7 @@ RP.PropEmotes = {
         "cellphone_text_read_base",
         "SMS",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -15800,7 +18105,7 @@ RP.PropEmotes = {
         "cellphone_text_read_base",
         "SMS 2",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -15829,7 +18134,7 @@ RP.PropEmotes = {
         "cellphone_email_read_base",
         "SMS 3",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -15858,7 +18163,7 @@ RP.PropEmotes = {
         "cellphone_text_read_base_cover_low",
         "SMS 4",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -15898,9 +18203,9 @@ RP.PropEmotes = {
     ["sms5"] = {
         "amb@code_human_wander_texting_fat@male@base",
         "static",
-        "SMS 6",
+        "SMS 5",
         AnimationOptions = {
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -16584,7 +18889,7 @@ RP.PropEmotes = {
                 0.0,
                 0.0
             },
-            SecondProp = 'prop_phone_ing',
+            SecondProp = 'prop_phone_taymckenzienz',
             PropTextureVariations = {
                 { Name = "<font color=\"#00A0F4\">Blue", Value = 0 },
                 { Name = "<font color=\"#1AA20E\">Green", Value = 1 },
@@ -16723,7 +19028,7 @@ RP.PropEmotes = {
         AnimationOptions = {
             EmoteMoving = false,
             EmoteLoop = true,
-            Prop = "prop_phone_ing",
+            Prop = "prop_phone_taymckenzienz",
             PropTextureVariations = {
                 {Name = "<font color=\"#00A0F4\">Blue", Value = 0},
                 {Name = "<font color=\"#1AA20E\">Green", Value = 1},
@@ -16957,10 +19262,62 @@ RP.PropEmotes = {
             EmoteMoving = true
         }
     },
-    ["airportbag2"] = { -- Custom Emote By Chocoholic Animations
+    ["airportbag2"] = { -- Custom Emote By Dark Animations exclusive to RPEmotes 
+        "suitcase_phone@dark",
+        "suitcase_phone_clip",
+        "Airport Bag 2 - Phone",
+        AnimationOptions = {
+            Prop = 'prop_suitcase_03',
+            PropBone = 60309,
+            PropPlacement = {
+                 0.4700,
+                -0.0400,
+                -0.3500,
+              -120.0000,
+              -180.0000,
+               -79.9999
+            },
+            SecondProp = 'prop_phone_taymckenzienz',
+            PropTextureVariations = {
+                { Name = "<font color=\"#00A0F4\">Blue", Value = 0 },
+                { Name = "<font color=\"#1AA20E\">Green", Value = 1 },
+                { Name = "<font color=\"#800B0B\">Dark Red", Value = 2 },
+                { Name = "<font color=\"#FF7B00\">Orange", Value = 3 },
+                { Name = "<font color=\"#5F5F5F\">Grey", Value = 4 },
+                { Name = "<font color=\"#a356fa\">Purple", Value = 5 },
+                { Name = "<font color=\"#FF0099\">Pink", Value = 6 },
+                { Name = "Black", Value = 7 },
+            },
+            SecondPropBone = 28422,
+            SecondPropPlacement = {
+                0.1040,
+                0.0320,
+               -0.0200,
+             -108.6997,
+             -150.5805,
+               46.7080
+            },
+            EmoteLoop = true,
+            EmoteMoving = true,
+            PtfxAsset = "scr_tn_meet",
+            PtfxName = "scr_tn_meet_phone_camera_flash",
+            PtfxPlacement = {
+                -0.015,
+                0.0,
+                0.041,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            },
+            PtfxInfo = Config.Languages[Config.MenuLanguage]['camera'],
+            PtfxWait = 200
+        }
+    },
+    ["airportbag3"] = { -- Custom Emote By Chocoholic Animations
         "chocoholic@single63",
         "single63_clip",
-        "Airport Bag Pose",
+        "Airport Bag 3 - Pose",
         AnimationOptions = {
             Prop = "prop_suitcase_03",
             PropBone = 58869,
@@ -17008,6 +19365,73 @@ RP.PropEmotes = {
                 -71.8855,
                 -13.0889,
                 -16.0242
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+	["megaphone3"] = {
+        "anim@rifle_megaphone",
+        "rifle_holding_megaphone",
+        "Megaphone 3",
+        AnimationOptions = {
+            Prop = "prop_megaphone_01",
+            PropBone = 60309,
+            PropPlacement = {
+                0.0480,
+                0.0190,
+                0.0160,
+              -94.8944,
+               -2.3093,
+              -10.9030
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+	["easter"] = {
+        "anim@heists@narcotics@trash",
+        "idle",
+        "Easter Basket",
+        AnimationOptions = {
+            Prop = "bzzz_event_easter_basket_b",
+            PropBone = 28422,
+            PropPlacement = {
+                0.0040,
+                0.0400,
+               -0.2420,
+               19.9999,
+                0.0,
+              -10.0000
+             },
+            SecondProp = 'bzzz_event_easter_egg_d',
+            SecondPropBone = 60309,
+            SecondPropPlacement = {
+                0.0790,
+                0.0090,
+                0.0190,
+             -120.0000,
+                0.0,
+               0.0,
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+	["easter2"] = {
+        "anim@heists@humane_labs@finale@keycards",
+        "ped_a_enter_loop",
+        "Easter Bunny",
+        AnimationOptions = {
+            Prop = "bzzz_event_easter_bunny_a",
+            PropBone = 60309,
+            PropPlacement = {
+               -0.0270,
+               -0.0200,
+                0.0100,
+                62.9161,
+                0.4622,
+                10.8906
             },
             EmoteLoop = true,
             EmoteMoving = true
@@ -17171,17 +19595,57 @@ RP.PropEmotes = {
         "Gamer",
         AnimationOptions = {
             Prop = 'prop_controller_01',
-            PropBone = 24818, --- Chest bone, works fine for sitting down, not soo much with emote moving.
+            PropBone = 18905,
             PropPlacement = {
-                0.2890,
-                0.4110,
-                0.0020,
-               -44.0174,
-                88.6103,
-                -1.4385
+                0.1450,
+                0.0590,
+                0.0850,
+             -164.4546,
+              -62.9570,
+               17.5872
             },
             EmoteLoop = true,
             ExitEmote = "getup",
+            ExitEmoteType = "Exits"
+        }
+    },
+    ["gamer2"] = { --- Custom Emote By Dark Animations exclusive to RPEmotes
+        "lay_controller@dark",
+        "lay_controller_clip",
+        "Gamer Laying On Stomach",
+        AnimationOptions = {
+            Prop = 'prop_controller_01',
+            PropBone = 18905,
+            PropPlacement = {
+                0.1350,
+                0.0360,
+                0.0950,
+             -180.0000,
+              -72.9699,
+                0.0000
+            },
+            EmoteLoop = true,
+            ExitEmote = "getup",
+            ExitEmoteType = "Exits"
+        }
+    },
+    ["study"] = { --- Custom Emote By Dark Animations exclusive to RPEmotes
+        "study_pc_finally_fixed@dark",
+        "study_pc_finally_fixed_clip",
+        "Study",
+        AnimationOptions = {
+            Prop = 'xm_prop_x17_laptop_lester_01',
+            PropBone = 28422,
+            PropPlacement = {
+                0.1650,
+                0.1010,
+               -0.1470,
+             -159.2533,
+             -145.7418,
+              -79.5760,
+            },
+            EmoteLoop = true,
+             ExitEmote = "getup",
             ExitEmoteType = "Exits"
         }
     },
@@ -17228,6 +19692,42 @@ RP.PropEmotes = {
                -138.6571,
                 4.4141,
                -79.3552
+            },
+            EmoteLoop = true
+        }
+    },
+    ["propose2"] = { --- Custom Emote By ultrahacx
+        "ultra@propose",
+        "propose",
+        "Propose 2 - Valentines Day",
+        AnimationOptions = {
+            Prop = 'pata_freevalentinesday', --- Custom prop by PataMods
+            PropBone = 64064,
+            PropPlacement = {
+                0.0190,
+                0.0480,
+                0.0110,
+               -9.0350,
+                88.4373,
+                -9.8783
+            },
+            EmoteLoop = true
+        }
+    },
+    ["propose3"] = { --- Custom Emote By ultrahacx
+        "ultra@propose",
+        "propose",
+        "Propose 3",
+        AnimationOptions = {
+            Prop = 'pata_freevalentinesday2', --- Custom prop by PataMods
+            PropBone = 64064,
+            PropPlacement = {
+                0.0190,
+                0.0480,
+                0.0110,
+               -9.0350,
+                88.4373,
+                -9.8783
             },
             EmoteLoop = true
         }
@@ -17589,7 +20089,7 @@ RP.PropEmotes = {
     ["skatehold2"] = { -- Emote by Molly
         "beachanims@molly",
         "beachanim_surf_clip",
-        "Skatebboard - Hold Female 2",
+        "Skateboard - Hold Female 2",
         AnimationOptions = {
             Prop = "taymckenzienz_skateboard01",
             PropBone = 28422,
@@ -17605,7 +20105,26 @@ RP.PropEmotes = {
             EmoteMoving = true
         }
     },
-    ["skatehold3"] = {
+    ["skatehold3"] = { -- Custom Emote By Chocoholic Animations
+        "chocoholic@skate4",
+        "skate4_clip",
+        "Skateboard - Hold Female 3",
+        AnimationOptions = {
+            Prop = "taymckenzienz_skateboard01",
+            PropBone = 28422,
+            PropPlacement = {
+                0.2780,
+               -0.0200,
+               -0.0700,
+               -180.0000,
+                28.0000,
+                0.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = false
+        }
+    },
+    ["skatehold4"] = {
         "molly@boombox1",
         "boombox1_clip",
         "Skateboard - Hold Male",
@@ -17634,10 +20153,10 @@ RP.PropEmotes = {
             EmoteMoving = true
         }
     },
-    ["skatehold4"] = { -- Emote by Molly
+    ["skatehold5"] = { -- Emote by Molly
         "beachanims@molly",
         "beachanim_surf_clip",
-        "Skatebboard - Hold Male 2",
+        "Skateboard - Hold Male 2",
         AnimationOptions = {
             Prop = "taymckenzienz_skateboard02",
             PropBone = 28422,
@@ -17653,10 +20172,10 @@ RP.PropEmotes = {
             EmoteMoving = true
         }
     },
-    ["skatehold5"] = { -- Custom Emote By Chocoholic Animations
+    ["skatehold6"] = { -- Custom Emote By Chocoholic Animations
         "chocoholic@skate4",
         "skate4_clip",
-        "Skateboard - Hold Male 5",
+        "Skateboard - Hold Male 3",
         AnimationOptions = {
             Prop = "taymckenzienz_skateboard02",
             PropBone = 28422,
@@ -17699,30 +20218,6 @@ RP.PropEmotes = {
             },
             EmoteLoop = true,
             EmoteMoving = true
-        }
-    },
-    ["kick"] = {
-        "missheistdockssetup1ig_13@kick_idle",
-        "guard_beatup_kickidle_guard1",
-        "Kick",
-        AnimationOptions = {
-            EmoteLoop = true
-        }
-    },
-    ["kick2"] = {
-        "missheistdockssetup1ig_13@kick_idle",
-        "guard_beatup_kickidle_guard2",
-        "Kick 2",
-        AnimationOptions = {
-            EmoteLoop = true
-        }
-    },
-    ["kick3"] = {
-        "melee@unarmed@streamed_core",
-        "kick_close_a",
-        "Kick 3",
-        AnimationOptions = {
-            EmoteDuration = 1750
         }
     },
     ["shield"] = {
@@ -17830,4 +20325,251 @@ RP.PropEmotes = {
             EmoteMoving = true
         }
     },
+    ["heartprop"] = {
+        "anim@heists@box_carry@",
+        "idle",
+        "Heart Prop",
+        AnimationOptions = {
+            Prop = 'brum_heart',
+            PropBone = 28422,
+            PropPlacement = {
+               -0.5600,
+                0.0240,
+               -0.3690,
+              -10.0000,
+               0.0000,
+              -0.0000
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["popcorn"] = {
+        "amb@code_human_wander_drinking@female@base",
+        "static",
+        "Popcorn",
+        AnimationOptions = {
+            Prop = 'prop_taymckenzienz_popcorn',
+            PropBone = 28422,
+            PropPlacement = {
+               -0.0200,
+               -0.0100,
+               -0.0700,
+             -179.3626,
+              176.9331,
+               11.9833
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["sax"] = {
+        "play_saxophone@dark",
+        "play_saxophone_clip",
+        "Saxophone 1",
+        AnimationOptions = {
+            Prop = 'rpemotes_prop_saxophone01',
+            PropBone = 57005,
+            PropPlacement = {
+               0.0700,
+               0.0400,
+               0.0300,
+             -71.2242,
+              29.3364,
+               5.9514
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["sax2"] = {
+       "play_saxophone@dark",
+       "play_saxophone_clip",
+        "Saxophone 2",
+        AnimationOptions = {
+            Prop = 'rpemotes_prop_saxophone02',
+            PropBone = 57005,
+            PropPlacement = {
+               0.0700,
+               0.0400,
+               0.0300,
+             -71.2242,
+              29.3364,
+               5.9514
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["poolcue"] = {
+       "pool_pack_1@dark",
+       "pool_pack_1_clip",
+        "Play Pool",
+        AnimationOptions = {
+            Prop = 'prop_pool_cue',
+            PropBone = 57005,
+            PropPlacement = {
+               0.0900,
+               0.2000,
+               0.0800,
+             -61.4338,
+              -7.2194,
+               3.1642
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["poolcue2"] = {
+       "pool_pack_2@dark",
+       "pool_pack_2_clip",
+        "Play Pool 2 (Pose)",
+        AnimationOptions = {
+            Prop = 'prop_pool_cue',
+            PropBone = 57005,
+            PropPlacement = {
+               0.1200,
+              -0.5200,
+              -0.1200,
+             -78.0400,
+              -1.4526,
+               1.8479
+            },
+            EmoteLoop = true,
+            EmoteMoving = false
+        }
+   },
+    ["poolcue3"] = {
+       "pool_pack_3@dark",
+       "pool_pack_3_clip",
+        "Play Pool 3 (Pose)",
+        AnimationOptions = {
+            Prop = 'prop_pool_cue',
+            PropBone = 57005,
+            PropPlacement = {
+               0.1200,
+              -0.3500,
+              -0.0200,
+             -90.0000,
+               0.0,
+               0.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = false
+        }
+   },
+    ["poolcue4"] = {
+       "pool_pack_4@dark",
+       "pool_pack_4_clip",
+        "Play Pool 4 (Pose)",
+        AnimationOptions = {
+            Prop = 'prop_pool_cue',
+            PropBone = 61163,
+            PropPlacement = {
+               0.2600,
+              -0.1600,
+              -0.3100,
+             -31.8144,
+              14.4214,
+             -13.2854
+            },
+            EmoteLoop = true,
+            EmoteMoving = false
+        }
+   },
+    ["poolcue5"] = {
+       "pool_pack_5@dark",
+       "pool_pack_5_clip",
+        "Play Pool 5",
+        AnimationOptions = {
+            Prop = 'prop_pool_cue',
+            PropBone = 57005,
+            PropPlacement = {
+               0.0700,
+               0.5500,
+               0.1000,
+             -76.6157,
+              -9.5838,
+               2.9748,
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["basket"] = {
+       "missfbi4prepp1",
+       "idle",
+        "Basket",
+        AnimationOptions = {
+            Prop = 'bzzz_prop_shop_basket_a',
+            PropBone = 57005,
+            PropPlacement = {
+               0.34,
+              -0.25,
+              -0.24,
+             -146.0,
+              115.0,
+               19.0,
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["basket2"] = {
+       "missfbi4prepp1",
+       "idle",
+        "Basket 2",
+        AnimationOptions = {
+            Prop = 'bzzz_prop_shop_basket_b',
+            PropBone = 57005,
+            PropPlacement = {
+               0.34,
+              -0.25,
+              -0.24,
+             -146.0,
+              115.0,
+               19.0,
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["power"] = {
+       "move_weapon@jerrycan@generic",
+       "idle",
+        "Power House",
+        AnimationOptions = {
+            Prop = 'prop_bzzz_elektro_powerhouse001',
+            PropBone = 57005,
+            PropPlacement = {
+               0.11,
+               0.06,
+               0.0,
+               98.0,
+               12.0,
+               -99.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
+    ["wlight"] = {
+       "missfbi4prepp1",
+       "idle",
+        "Weed Light",
+        AnimationOptions = {
+            Prop = 'prop_bzzz_drugs_light001',
+            PropBone = 57005,
+            PropPlacement = {
+               0.08,
+               0.18,
+              -0.02,
+             -130.0,
+                0.0,
+              -90.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+   },
 }

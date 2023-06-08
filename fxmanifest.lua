@@ -1,9 +1,12 @@
---- Maintained by TayMcKenzieNZ ---
---- Check for updates at https://github.com/TayMcKenzieNZ/rpemotes ---
+--- RPEmotes by TayMcKenzieNZ, Mathu_Imn and MadsL, maintained by TayMcKenzieNZ ---
+--- Download OFFICIAL version and updates ONLY at https://github.com/TayMcKenzieNZ/rpemotes ---
+--- RPEmotes is FREE and ALWAYS will be. STOP PAYING SCAMMY FUCKERS FOR SOMEONE ELSE'S WORK!!! ---
 
 fx_version 'cerulean'
 game 'gta5'
-version '1.1.2'
+authors { 'TayMcKenzieNZ', 'MadsL', 'Mathu_Imn', 'Community' }
+description 'RPEmotes V1.2.6'
+version '1.2.6'
 lua54 'yes'
 
 dependencies {
@@ -22,7 +25,8 @@ dependencies {
 
 shared_scripts {
     'config.lua',
-    'Translations.lua'
+    'Translations.lua',
+    'animals.lua',
 }
 
 server_scripts {
@@ -34,12 +38,17 @@ server_scripts {
 
 client_scripts {
     'NativeUI.lua',
+    'client/Utils.lua',
     'client/AnimationList.lua',
     'client/AnimationListCustom.lua',
+    'client/Binoculars.lua',
     'client/Crouch.lua',
     'client/Emote.lua',
     'client/EmoteMenu.lua',
+    'client/Expressions.lua',
     'client/Keybinds.lua',
+    'client/NewsCam.lua',
+    'client/NoIdleCam.lua',
     'client/Pointing.lua',
     'client/Ragdoll.lua',
     'client/Syncing.lua',
@@ -48,45 +57,23 @@ client_scripts {
 }
 
 
----- These are required for the custom props to load. If you have custom props, add data_file 'DLC_ITYP_REQUEST' 'custompropytypnamehere.ytyp' below ---------
+---- Loads all ytyp files for custom props to stream ---
+---- You will need to add a data_file 'DLC_ITYP_REQUEST' for your own to work in game ---
 
-data_file 'DLC_ITYP_REQUEST' 'badge1.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/taymckenzienz_rpemotes.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'copbadge.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/brummie_props.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'prideprops_ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/bzzz_props.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'lilflags_ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/apple_1.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'bzzz_foodpack'
-
-data_file 'DLC_ITYP_REQUEST' 'bzzz_prop_torch_fire001.ytyp'
-
-data_file 'DLC_ITYP_REQUEST' 'natty_props_lollipops.ytyp'
-
-data_file 'DLC_ITYP_REQUEST' 'apple_1.ytyp'
-
-data_file 'DLC_ITYP_REQUEST' 'stream/bzzz_food_icecream_pack.ytyp'
-
-data_file 'DLC_ITYP_REQUEST' 'stream/bzzz_food_dessert_a.ytyp'
-
-data_file 'DLC_ITYP_REQUEST' 'stream/bzzz_prop_give_gift.ytyp'
-
-data_file 'DLC_ITYP_REQUEST' 'stream/ultra_ringcase.ytyp'
-
-data_file 'DLC_ITYP_REQUEST' 'stream/bzzz_food_xmas22.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/kaykaymods_props.ytyp'
 
 data_file 'DLC_ITYP_REQUEST' 'stream/knjgh_pizzas.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/pata_christmasfood.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/natty_props_lollipops.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/bzzz_prop_cake_love_001.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/ultra_ringcase.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/bzzz_prop_cake_birthday_001.ytyp'
-
-data_file 'DLC_ITYP_REQUEST' 'stream/bzzz_prop_cake_baby_001.ytyp'
-
-data_file 'DLC_ITYP_REQUEST' 'stream/bzzz_prop_cake_casino001.ytyp'
-
-data_file 'DLC_ITYP_REQUEST' 'stream/taymckenzienz_skateboards.ytyp'
-
+data_file 'DLC_ITYP_REQUEST' 'stream/pata_props.ytyp'
